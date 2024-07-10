@@ -1,0 +1,9 @@
+../Core/Src/freertos.c:122:6:RS485	48	static
+../Core/Src/freertos.c:134:6:vTask1	16	static
+../Core/Src/freertos.c:152:6:DMA_M0_RC_Callback	24	static,ignoring_inline_asm
+../Core/Src/freertos.c:163:6:DMA_M1_RC_Callback	24	static,ignoring_inline_asm
+../Core/Src/freertos.c:174:6:DMA_Error_Callback	16	static
+../Core/Src/freertos.c:179:6:Enable_Uart	24	static
+../Core/Src/freertos.c:195:6:ddsm115_task	24	static
+../Core/Src/freertos.c:221:6:MX_FREERTOS_Init	16	static
+../Core/Src/freertos.c:266:6:StartDefaultTask	168	static

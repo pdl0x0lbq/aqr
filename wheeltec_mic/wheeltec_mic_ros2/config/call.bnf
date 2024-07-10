@@ -1,0 +1,20 @@
+﻿#BNF+IAT 1.0 UTF-8;
+!grammar call;
+
+!slot <action>;
+
+!start <callstart>;
+
+<callstart>:<command>|<deliveryrequest>;
+<command>:(小车|关闭|打开|开始)<choose>;
+<choose>:<action>|<navigation>|<turn>|<follow>;
+<action>:前进|后退|停|过来|休眠|自主建图|导航|红楼梦带给我;
+<navigation>:去(I|J|K|O|P|Q)点;
+<turn>:(左|右)转;
+<follow>:(雷达|色块)跟随;
+<deliveryrequest>:(请|麻烦你|能到|可否到|能否|我需要)<actions><location>的<thing><bring>;
+<actions>:(把|递给|送到|取一下|拿下|交给);
+<location>:(一楼|二楼|三楼|四楼|五楼|六楼|七楼|八楼|九楼|十楼)<specificlocation>|(101|102|103|104|105|106|107|108|109|110|111|112|113|114|115|116|117);
+<specificlocation>:会议室|办公室|实验室;
+<thing>:(鼠标|红楼梦|键盘|文件夹|笔记本电脑|文具|手机|遥控器);
+<bring>:带给我|给我|拿给我|带回给我;

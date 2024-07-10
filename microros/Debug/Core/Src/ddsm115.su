@@ -1,0 +1,2 @@
+../Core/Src/ddsm115.c:7:15:crc8	32	static
+../Core/Src/ddsm115.c:29:6:Uart1Recv_Task	32	static
