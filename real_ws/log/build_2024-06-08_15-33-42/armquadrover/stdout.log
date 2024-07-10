@@ -1,5 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target SerialNode[0m
-[ 25%] Built target node_01
-[35m[1mConsolidate compiler generated dependencies of target ArmServer[0m
-[ 62%] Built target ArmServer
-[ 75%] [32mBuilding CXX object CMakeFiles/SerialNode.dir/src/SerialNode.cpp.o[0m

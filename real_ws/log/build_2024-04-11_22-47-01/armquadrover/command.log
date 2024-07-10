@@ -1,6 +1,0 @@
-Invoking command in '/root/real_ws/build/armquadrover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/real_ws/src/armquadrover_gnb/armquadrover -DCMAKE_INSTALL_PREFIX=/root/real_ws/install/armquadrover
-Invoked command in '/root/real_ws/build/armquadrover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/real_ws/src/armquadrover_gnb/armquadrover -DCMAKE_INSTALL_PREFIX=/root/real_ws/install/armquadrover
-Invoking command in '/root/real_ws/build/armquadrover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/real_ws/build/armquadrover -- -j4 -l4
-Invoked command in '/root/real_ws/build/armquadrover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/real_ws/build/armquadrover -- -j4 -l4
-Invoking command in '/root/real_ws/build/armquadrover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/real_ws/build/armquadrover
-Invoked command in '/root/real_ws/build/armquadrover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/real_ws/build/armquadrover
