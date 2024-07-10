@@ -1,0 +1,4 @@
+source;share/armquadrover/local_setup.bash
+source;share/armquadrover/local_setup.dsv
+source;share/armquadrover/local_setup.sh
+source;share/armquadrover/local_setup.zsh

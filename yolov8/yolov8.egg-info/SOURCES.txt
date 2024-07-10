@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+resource/yolov8
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+yolov8/__init__.py
+yolov8/utils.py
+yolov8/yolo_cut.py
+yolov8.egg-info/PKG-INFO
+yolov8.egg-info/SOURCES.txt
+yolov8.egg-info/dependency_links.txt
+yolov8.egg-info/entry_points.txt
+yolov8.egg-info/requires.txt
+yolov8.egg-info/top_level.txt
+yolov8.egg-info/zip-safe

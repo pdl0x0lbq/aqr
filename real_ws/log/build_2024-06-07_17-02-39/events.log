@@ -1,0 +1,1368 @@
+[0.000000] (-) TimerEvent: {}
+[0.003948] (armquadrover) JobQueued: {'identifier': 'armquadrover', 'dependencies': OrderedDict()}
+[0.005310] (armquadrover_msgs) JobQueued: {'identifier': 'armquadrover_msgs', 'dependencies': OrderedDict()}
+[0.006693] (armquadrover) JobStarted: {'identifier': 'armquadrover'}
+[0.098647] (-) TimerEvent: {}
+[0.101203] (armquadrover_msgs) JobStarted: {'identifier': 'armquadrover_msgs'}
+[0.190494] (armquadrover) JobProgress: {'identifier': 'armquadrover', 'progress': 'cmake'}
+[0.199751] (-) TimerEvent: {}
+[0.203873] (armquadrover) JobProgress: {'identifier': 'armquadrover', 'progress': 'build'}
+[0.213131] (armquadrover) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/real_ws/build/armquadrover', '--', '-j4', '-l4'], 'cwd': '/root/real_ws/build/armquadrover', 'env': OrderedDict([('USER', 'root'), ('SSH_CLIENT', '192.168.137.1 51513 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/real_ws/install/armquadrover_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.90.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-7d9391ee-0622-4cdb-b15c-e23a4e2d0037.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/root/urdf_ws/install:/root/real_ws/install:/root/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '22'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-f973ab10cc.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/depth_image_processing:/root/dev_ws/install/all_test:/root/catkin_ws/install/xyz:/root/urdf_ws/install/doubleconfig:/root/urdf_ws/install/double3config:/root/urdf_ws/install/doublearm6_description:/root/real_ws/install/armquadrover_msgs:/root/real_ws/install/armquadrover:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/real_ws/build/armquadrover'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51513 192.168.137.25 22'), ('PYTHONPATH', '/root/urdf_ws/install/doublearm6_description/lib/python3.10/site-packages:/root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/lib/python3/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/depth_image_processing:/root/dev_ws/install/all_test:/root/catkin_ws/install/xyz:/root/urdf_ws/install/doubleconfig:/root/urdf_ws/install/double3config:/root/real_ws/install/armquadrover_msgs:/root/real_ws/install/armquadrover:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble')]), 'shell': False}
+[0.262058] (armquadrover_msgs) JobProgress: {'identifier': 'armquadrover_msgs', 'progress': 'cmake'}
+[0.274102] (armquadrover_msgs) JobProgress: {'identifier': 'armquadrover_msgs', 'progress': 'build'}
+[0.277880] (armquadrover_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/real_ws/build/armquadrover_msgs', '--', '-j4', '-l4'], 'cwd': '/root/real_ws/build/armquadrover_msgs', 'env': OrderedDict([('USER', 'root'), ('SSH_CLIENT', '192.168.137.1 51513 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/real_ws/install/armquadrover_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.90.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-7d9391ee-0622-4cdb-b15c-e23a4e2d0037.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/root/urdf_ws/install:/root/real_ws/install:/root/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '22'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-f973ab10cc.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/depth_image_processing:/root/dev_ws/install/all_test:/root/catkin_ws/install/xyz:/root/urdf_ws/install/doubleconfig:/root/urdf_ws/install/double3config:/root/urdf_ws/install/doublearm6_description:/root/real_ws/install/armquadrover_msgs:/root/real_ws/install/armquadrover:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/real_ws/build/armquadrover_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51513 192.168.137.25 22'), ('PYTHONPATH', '/root/urdf_ws/install/doublearm6_description/lib/python3.10/site-packages:/root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/lib/python3/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/depth_image_processing:/root/dev_ws/install/all_test:/root/catkin_ws/install/xyz:/root/urdf_ws/install/doubleconfig:/root/urdf_ws/install/double3config:/root/real_ws/install/armquadrover_msgs:/root/real_ws/install/armquadrover:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble')]), 'shell': False}
+[0.300323] (-) TimerEvent: {}
+[0.404439] (-) TimerEvent: {}
+[0.506609] (-) TimerEvent: {}
+[0.611857] (-) TimerEvent: {}
+[0.712995] (-) TimerEvent: {}
+[0.814208] (-) TimerEvent: {}
+[0.915705] (-) TimerEvent: {}
+[1.020425] (-) TimerEvent: {}
+[1.121888] (-) TimerEvent: {}
+[1.223543] (-) TimerEvent: {}
+[1.325333] (-) TimerEvent: {}
+[1.427106] (-) TimerEvent: {}
+[1.528398] (-) TimerEvent: {}
+[1.630231] (-) TimerEvent: {}
+[1.734109] (-) TimerEvent: {}
+[1.751398] (armquadrover_msgs) StdoutLine: {'line': b'[  2%] Built target armquadrover_msgs__cpp\n'}
+[1.824663] (armquadrover) StdoutLine: {'line': b'[ 25%] Built target node_01\n'}
+[1.835967] (-) TimerEvent: {}
+[1.938230] (-) TimerEvent: {}
+[2.000643] (armquadrover_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_armquadrover_msgs\n'}
+[2.038498] (-) TimerEvent: {}
+[2.048633] (armquadrover) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target SerialNode\x1b[0m\n'}
+[2.138699] (-) TimerEvent: {}
+[2.222915] (armquadrover_msgs) StdoutLine: {'line': b'[ 12%] Built target armquadrover_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.238997] (-) TimerEvent: {}
+[2.309066] (armquadrover) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/SerialNode.dir/src/SerialNode.cpp.o\x1b[0m\n'}
+[2.340065] (-) TimerEvent: {}
+[2.443559] (-) TimerEvent: {}
+[2.493618] (armquadrover_msgs) StdoutLine: {'line': b'[ 23%] Built target armquadrover_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.544425] (-) TimerEvent: {}
+[2.645601] (-) TimerEvent: {}
+[2.749327] (-) TimerEvent: {}
+[2.851732] (-) TimerEvent: {}
+[2.953465] (-) TimerEvent: {}
+[3.057701] (-) TimerEvent: {}
+[3.168326] (-) TimerEvent: {}
+[3.280363] (-) TimerEvent: {}
+[3.381984] (-) TimerEvent: {}
+[3.489234] (-) TimerEvent: {}
+[3.594987] (-) TimerEvent: {}
+[3.703926] (-) TimerEvent: {}
+[3.815112] (-) TimerEvent: {}
+[3.916415] (-) TimerEvent: {}
+[4.017634] (-) TimerEvent: {}
+[4.118677] (-) TimerEvent: {}
+[4.219791] (-) TimerEvent: {}
+[4.321044] (-) TimerEvent: {}
+[4.426176] (-) TimerEvent: {}
+[4.528126] (-) TimerEvent: {}
+[4.631969] (-) TimerEvent: {}
+[4.737081] (-) TimerEvent: {}
+[4.843336] (-) TimerEvent: {}
+[4.955602] (-) TimerEvent: {}
+[5.058404] (-) TimerEvent: {}
+[5.180440] (-) TimerEvent: {}
+[5.282012] (-) TimerEvent: {}
+[5.383765] (-) TimerEvent: {}
+[5.487547] (-) TimerEvent: {}
+[5.590214] (-) TimerEvent: {}
+[5.691800] (-) TimerEvent: {}
+[5.794154] (-) TimerEvent: {}
+[5.896544] (-) TimerEvent: {}
+[6.000539] (-) TimerEvent: {}
+[6.106594] (-) TimerEvent: {}
+[6.161386] (armquadrover_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[6.175068] (armquadrover_msgs) StdoutLine: {'line': b'writing armquadrover_msgs.egg-info/PKG-INFO\n'}
+[6.177452] (armquadrover_msgs) StdoutLine: {'line': b'writing dependency_links to armquadrover_msgs.egg-info/dependency_links.txt\n'}
+[6.182138] (armquadrover_msgs) StdoutLine: {'line': b'writing top-level names to armquadrover_msgs.egg-info/top_level.txt\n'}
+[6.206771] (-) TimerEvent: {}
+[6.219542] (armquadrover_msgs) StdoutLine: {'line': b"reading manifest file 'armquadrover_msgs.egg-info/SOURCES.txt'\n"}
+[6.230293] (armquadrover_msgs) StdoutLine: {'line': b"writing manifest file 'armquadrover_msgs.egg-info/SOURCES.txt'\n"}
+[6.307084] (-) TimerEvent: {}
+[6.408966] (-) TimerEvent: {}
+[6.510065] (-) TimerEvent: {}
+[6.529279] (armquadrover_msgs) StdoutLine: {'line': b'[ 23%] Built target ament_cmake_python_build_armquadrover_msgs_egg\n'}
+[6.611438] (-) TimerEvent: {}
+[6.713341] (-) TimerEvent: {}
+[6.760351] (armquadrover_msgs) StdoutLine: {'line': b'[ 33%] Built target armquadrover_msgs__rosidl_typesupport_cpp\n'}
+[6.813644] (-) TimerEvent: {}
+[6.919821] (-) TimerEvent: {}
+[6.942331] (armquadrover_msgs) StdoutLine: {'line': b'[ 43%] Built target armquadrover_msgs__rosidl_generator_c\n'}
+[7.020074] (-) TimerEvent: {}
+[7.126902] (-) TimerEvent: {}
+[7.167133] (armquadrover_msgs) StdoutLine: {'line': b'[ 53%] Built target armquadrover_msgs__rosidl_typesupport_fastrtps_c\n'}
+[7.227187] (-) TimerEvent: {}
+[7.338743] (-) TimerEvent: {}
+[7.377432] (armquadrover_msgs) StdoutLine: {'line': b'[ 64%] Built target armquadrover_msgs__rosidl_typesupport_c\n'}
+[7.440441] (-) TimerEvent: {}
+[7.547656] (-) TimerEvent: {}
+[7.605025] (armquadrover_msgs) StdoutLine: {'line': b'[ 74%] Built target armquadrover_msgs__rosidl_typesupport_introspection_c\n'}
+[7.647897] (-) TimerEvent: {}
+[7.746289] (armquadrover_msgs) StdoutLine: {'line': b'[ 74%] Built target armquadrover_msgs\n'}
+[7.757899] (-) TimerEvent: {}
+[7.865379] (armquadrover_msgs) StdoutLine: {'line': b'[ 76%] Built target armquadrover_msgs__py\n'}
+[7.866446] (-) TimerEvent: {}
+[7.980444] (-) TimerEvent: {}
+[8.085496] (-) TimerEvent: {}
+[8.152543] (armquadrover_msgs) StdoutLine: {'line': b'[ 84%] Built target armquadrover_msgs__rosidl_generator_py\n'}
+[8.185785] (-) TimerEvent: {}
+[8.288441] (-) TimerEvent: {}
+[8.296170] (armquadrover_msgs) StdoutLine: {'line': b'[ 89%] Built target armquadrover_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.392470] (-) TimerEvent: {}
+[8.424271] (armquadrover_msgs) StdoutLine: {'line': b'[ 94%] Built target armquadrover_msgs__rosidl_typesupport_c__pyext\n'}
+[8.496413] (-) TimerEvent: {}
+[8.598559] (-) TimerEvent: {}
+[8.636404] (armquadrover_msgs) StdoutLine: {'line': b'[100%] Built target armquadrover_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[8.698870] (-) TimerEvent: {}
+[8.801443] (-) TimerEvent: {}
+[8.904166] (-) TimerEvent: {}
+[8.969790] (armquadrover_msgs) CommandEnded: {'returncode': 0}
+[9.004524] (-) TimerEvent: {}
+[9.108718] (-) TimerEvent: {}
+[9.211798] (-) TimerEvent: {}
+[9.312866] (-) TimerEvent: {}
+[9.413902] (-) TimerEvent: {}
+[9.515136] (-) TimerEvent: {}
+[9.618436] (-) TimerEvent: {}
+[9.723272] (-) TimerEvent: {}
+[9.826501] (-) TimerEvent: {}
+[9.930943] (-) TimerEvent: {}
+[10.031975] (-) TimerEvent: {}
+[10.136439] (-) TimerEvent: {}
+[10.239017] (-) TimerEvent: {}
+[10.342503] (-) TimerEvent: {}
+[10.447411] (-) TimerEvent: {}
+[10.548585] (-) TimerEvent: {}
+[10.650764] (-) TimerEvent: {}
+[10.755497] (-) TimerEvent: {}
+[10.857143] (-) TimerEvent: {}
+[10.877660] (armquadrover_msgs) JobProgress: {'identifier': 'armquadrover_msgs', 'progress': 'install'}
+[10.957358] (-) TimerEvent: {}
+[11.061767] (-) TimerEvent: {}
+[11.163675] (-) TimerEvent: {}
+[11.267247] (-) TimerEvent: {}
+[11.370207] (-) TimerEvent: {}
+[11.475317] (-) TimerEvent: {}
+[11.578217] (-) TimerEvent: {}
+[11.688415] (-) TimerEvent: {}
+[11.794363] (-) TimerEvent: {}
+[11.897399] (-) TimerEvent: {}
+[12.000073] (-) TimerEvent: {}
+[12.103422] (-) TimerEvent: {}
+[12.207190] (-) TimerEvent: {}
+[12.310891] (-) TimerEvent: {}
+[12.363245] (armquadrover_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/root/real_ws/build/armquadrover_msgs'], 'cwd': '/root/real_ws/build/armquadrover_msgs', 'env': OrderedDict([('USER', 'root'), ('SSH_CLIENT', '192.168.137.1 51513 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/real_ws/install/armquadrover_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.90.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-7d9391ee-0622-4cdb-b15c-e23a4e2d0037.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/root/urdf_ws/install:/root/real_ws/install:/root/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '22'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-f973ab10cc.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/depth_image_processing:/root/dev_ws/install/all_test:/root/catkin_ws/install/xyz:/root/urdf_ws/install/doubleconfig:/root/urdf_ws/install/double3config:/root/urdf_ws/install/doublearm6_description:/root/real_ws/install/armquadrover_msgs:/root/real_ws/install/armquadrover:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/real_ws/build/armquadrover_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51513 192.168.137.25 22'), ('PYTHONPATH', '/root/urdf_ws/install/doublearm6_description/lib/python3.10/site-packages:/root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/lib/python3/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/depth_image_processing:/root/dev_ws/install/all_test:/root/catkin_ws/install/xyz:/root/urdf_ws/install/doubleconfig:/root/urdf_ws/install/double3config:/root/real_ws/install/armquadrover_msgs:/root/real_ws/install/armquadrover:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble')]), 'shell': False}
+[12.411164] (-) TimerEvent: {}
+[12.516125] (-) TimerEvent: {}
+[12.619497] (-) TimerEvent: {}
+[12.723728] (-) TimerEvent: {}
+[12.827631] (-) TimerEvent: {}
+[12.930520] (-) TimerEvent: {}
+[13.036827] (-) TimerEvent: {}
+[13.139173] (-) TimerEvent: {}
+[13.242981] (-) TimerEvent: {}
+[13.345851] (-) TimerEvent: {}
+[13.387708] (armquadrover_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.398571] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/ament_index/resource_index/rosidl_interfaces/armquadrover_msgs\n'}
+[13.419098] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs\n'}
+[13.422823] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg\n'}
+[13.423526] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/ddsm115.h\n'}
+[13.439944] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail\n'}
+[13.443800] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__functions.c\n'}
+[13.461211] (-) TimerEvent: {}
+[13.472796] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__struct.h\n'}
+[13.473867] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__functions.c\n'}
+[13.481022] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__functions.h\n'}
+[13.481722] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__type_support.h\n'}
+[13.483061] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__struct.h\n'}
+[13.483802] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__functions.h\n'}
+[13.490335] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__type_support.h\n'}
+[13.491153] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/ddsm115_servo.h\n'}
+[13.491896] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.517460] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/environment/library_path.sh\n'}
+[13.518552] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/environment/library_path.dsv\n'}
+[13.519476] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_generator_c.so\n'}
+[13.520489] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs\n'}
+[13.521243] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg\n'}
+[13.526800] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail\n'}
+[13.527929] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__rosidl_typesupport_fastrtps_c.h\n'}
+[13.533060] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__rosidl_typesupport_fastrtps_c.h\n'}
+[13.534029] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.534809] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[13.535563] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs\n'}
+[13.548506] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg\n'}
+[13.549273] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.549839] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail\n'}
+[13.550406] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__type_support.c\n'}
+[13.550930] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__rosidl_typesupport_introspection_c.h\n'}
+[13.551447] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__type_support.c\n'}
+[13.551974] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__rosidl_typesupport_introspection_c.h\n'}
+[13.564666] (-) TimerEvent: {}
+[13.565460] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_introspection_c.so\n'}
+[13.566369] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_c.so\n'}
+[13.567178] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs\n'}
+[13.568045] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg\n'}
+[13.575938] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/ddsm115_servo.hpp\n'}
+[13.582702] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail\n'}
+[13.583325] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__traits.hpp\n'}
+[13.583878] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__builder.hpp\n'}
+[13.597312] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__builder.hpp\n'}
+[13.598172] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__traits.hpp\n'}
+[13.598804] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__struct.hpp\n'}
+[13.599452] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__struct.hpp\n'}
+[13.600097] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/ddsm115.hpp\n'}
+[13.604035] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs\n'}
+[13.613073] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg\n'}
+[13.613784] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.614718] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail\n'}
+[13.615635] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/dds_fastrtps\n'}
+[13.620980] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.621882] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.622580] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.623111] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs\n'}
+[13.623670] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg\n'}
+[13.635907] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail\n'}
+[13.636900] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__type_support.cpp\n'}
+[13.637641] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.638254] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__type_support.cpp\n'}
+[13.638917] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.639490] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[13.640010] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_cpp.so\n'}
+[13.640719] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/environment/pythonpath.sh\n'}
+[13.641528] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/environment/pythonpath.dsv\n'}
+[13.642513] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs-0.0.0-py3.10.egg-info\n'}
+[13.643498] (armquadrover_msgs) StdoutLine: {'line': b'-- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[13.663156] (armquadrover_msgs) StdoutLine: {'line': b'-- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[13.664024] (armquadrover_msgs) StdoutLine: {'line': b'-- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[13.671874] (-) TimerEvent: {}
+[13.672641] (armquadrover_msgs) StdoutLine: {'line': b'-- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[13.673624] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs\n'}
+[13.674580] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg\n'}
+[13.675189] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg/_ddsm115_servo_s.c\n'}
+[13.678993] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg/_ddsm115_servo.py\n'}
+[13.686471] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg/_ddsm115_s.c\n'}
+[13.687508] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg/__init__.py\n'}
+[13.694484] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg/_ddsm115.py\n'}
+[13.695166] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/_armquadrover_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.695741] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/libarmquadrover_msgs__rosidl_generator_py.so\n'}
+[13.698977] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/_armquadrover_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.699653] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.704514] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.705537] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/_armquadrover_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[13.709854] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/__init__.py\n'}
+[13.714594] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.772144] (-) TimerEvent: {}
+[13.878373] (-) TimerEvent: {}
+[13.981277] (-) TimerEvent: {}
+[14.084015] (-) TimerEvent: {}
+[14.129646] (armquadrover_msgs) StdoutLine: {'line': b"Listing '/root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs'...\n"}
+[14.143021] (armquadrover_msgs) StdoutLine: {'line': b"Listing '/root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg'...\n"}
+[14.185293] (-) TimerEvent: {}
+[14.248958] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[14.270533] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[14.285785] (-) TimerEvent: {}
+[14.312499] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[14.313736] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_generator_py.so\n'}
+[14.325085] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/msg/DDSM115.idl\n'}
+[14.327224] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/msg/DDSM115Servo.idl\n'}
+[14.338192] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/msg/DDSM115.msg\n'}
+[14.339707] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/msg/DDSM115Servo.msg\n'}
+[14.350671] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/ament_index/resource_index/package_run_dependencies/armquadrover_msgs\n'}
+[14.351642] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/ament_index/resource_index/parent_prefix_path/armquadrover_msgs\n'}
+[14.369421] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/environment/ament_prefix_path.sh\n'}
+[14.370447] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/environment/ament_prefix_path.dsv\n'}
+[14.371621] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/environment/path.sh\n'}
+[14.377505] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/environment/path.dsv\n'}
+[14.378593] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/local_setup.bash\n'}
+[14.379733] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/local_setup.sh\n'}
+[14.394569] (-) TimerEvent: {}
+[14.395494] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/local_setup.zsh\n'}
+[14.405184] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/local_setup.dsv\n'}
+[14.406172] (armquadrover_msgs) StdoutLine: {'line': b'-- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/package.dsv\n'}
+[14.407104] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/ament_index/resource_index/packages/armquadrover_msgs\n'}
+[14.408054] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_generator_cExport.cmake\n'}
+[14.421942] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.422785] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.423586] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.432884] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.433890] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.434818] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgs__rosidl_typesupport_cExport.cmake\n'}
+[14.435795] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.445153] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_generator_cppExport.cmake\n'}
+[14.446289] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.447393] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.456616] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.457646] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.458681] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[14.459796] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.465138] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_generator_pyExport.cmake\n'}
+[14.466228] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.467247] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[14.472803] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.473982] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.475068] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.476119] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.481432] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.482597] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.483618] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgsConfig.cmake\n'}
+[14.489004] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgsConfig-version.cmake\n'}
+[14.489950] (armquadrover_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/package.xml\n'}
+[14.494813] (-) TimerEvent: {}
+[14.595870] (-) TimerEvent: {}
+[14.700510] (-) TimerEvent: {}
+[14.804446] (-) TimerEvent: {}
+[14.848438] (armquadrover_msgs) CommandEnded: {'returncode': 0}
+[14.932916] (-) TimerEvent: {}
+[15.046612] (-) TimerEvent: {}
+[15.148413] (-) TimerEvent: {}
+[15.254862] (-) TimerEvent: {}
+[15.360425] (-) TimerEvent: {}
+[15.463849] (-) TimerEvent: {}
+[15.569607] (-) TimerEvent: {}
+[15.672925] (-) TimerEvent: {}
+[15.779957] (-) TimerEvent: {}
+[15.882278] (-) TimerEvent: {}
+[15.985760] (-) TimerEvent: {}
+[16.089448] (-) TimerEvent: {}
+[16.192877] (-) TimerEvent: {}
+[16.296277] (-) TimerEvent: {}
+[16.399760] (-) TimerEvent: {}
+[16.504012] (-) TimerEvent: {}
+[16.605216] (-) TimerEvent: {}
+[16.706527] (-) TimerEvent: {}
+[16.812057] (-) TimerEvent: {}
+[16.918073] (-) TimerEvent: {}
+[17.024481] (-) TimerEvent: {}
+[17.128003] (-) TimerEvent: {}
+[17.235213] (-) TimerEvent: {}
+[17.340004] (-) TimerEvent: {}
+[17.447810] (-) TimerEvent: {}
+[17.551590] (-) TimerEvent: {}
+[17.656069] (-) TimerEvent: {}
+[17.680968] (armquadrover_msgs) JobEnded: {'identifier': 'armquadrover_msgs', 'rc': 0}
+[17.756575] (-) TimerEvent: {}
+[17.857643] (-) TimerEvent: {}
+[17.958822] (-) TimerEvent: {}
+[18.059966] (-) TimerEvent: {}
+[18.161182] (-) TimerEvent: {}
+[18.262289] (-) TimerEvent: {}
+[18.363348] (-) TimerEvent: {}
+[18.464427] (-) TimerEvent: {}
+[18.565388] (-) TimerEvent: {}
+[18.666476] (-) TimerEvent: {}
+[18.767520] (-) TimerEvent: {}
+[18.868708] (-) TimerEvent: {}
+[18.969823] (-) TimerEvent: {}
+[19.070987] (-) TimerEvent: {}
+[19.172107] (-) TimerEvent: {}
+[19.273317] (-) TimerEvent: {}
+[19.374575] (-) TimerEvent: {}
+[19.475714] (-) TimerEvent: {}
+[19.576839] (-) TimerEvent: {}
+[19.680300] (-) TimerEvent: {}
+[19.782773] (-) TimerEvent: {}
+[19.883782] (-) TimerEvent: {}
+[19.984952] (-) TimerEvent: {}
+[20.086051] (-) TimerEvent: {}
+[20.187187] (-) TimerEvent: {}
+[20.288424] (-) TimerEvent: {}
+[20.389669] (-) TimerEvent: {}
+[20.490811] (-) TimerEvent: {}
+[20.591938] (-) TimerEvent: {}
+[20.693064] (-) TimerEvent: {}
+[20.794150] (-) TimerEvent: {}
+[20.895308] (-) TimerEvent: {}
+[20.996456] (-) TimerEvent: {}
+[21.097506] (-) TimerEvent: {}
+[21.198549] (-) TimerEvent: {}
+[21.299751] (-) TimerEvent: {}
+[21.400890] (-) TimerEvent: {}
+[21.501954] (-) TimerEvent: {}
+[21.603000] (-) TimerEvent: {}
+[21.704077] (-) TimerEvent: {}
+[21.805182] (-) TimerEvent: {}
+[21.906299] (-) TimerEvent: {}
+[22.007390] (-) TimerEvent: {}
+[22.108562] (-) TimerEvent: {}
+[22.209690] (-) TimerEvent: {}
+[22.310913] (-) TimerEvent: {}
+[22.412050] (-) TimerEvent: {}
+[22.513975] (-) TimerEvent: {}
+[22.615097] (-) TimerEvent: {}
+[22.718073] (-) TimerEvent: {}
+[22.819186] (-) TimerEvent: {}
+[22.920304] (-) TimerEvent: {}
+[23.021580] (-) TimerEvent: {}
+[23.122838] (-) TimerEvent: {}
+[23.223951] (-) TimerEvent: {}
+[23.325090] (-) TimerEvent: {}
+[23.426337] (-) TimerEvent: {}
+[23.527414] (-) TimerEvent: {}
+[23.628417] (-) TimerEvent: {}
+[23.729636] (-) TimerEvent: {}
+[23.830795] (-) TimerEvent: {}
+[23.932442] (-) TimerEvent: {}
+[24.033783] (-) TimerEvent: {}
+[24.135263] (-) TimerEvent: {}
+[24.236509] (-) TimerEvent: {}
+[24.337530] (-) TimerEvent: {}
+[24.438578] (-) TimerEvent: {}
+[24.541334] (-) TimerEvent: {}
+[24.642566] (-) TimerEvent: {}
+[24.743726] (-) TimerEvent: {}
+[24.844901] (-) TimerEvent: {}
+[24.946044] (-) TimerEvent: {}
+[25.047622] (-) TimerEvent: {}
+[25.149450] (-) TimerEvent: {}
+[25.250757] (-) TimerEvent: {}
+[25.352368] (-) TimerEvent: {}
+[25.453555] (-) TimerEvent: {}
+[25.554733] (-) TimerEvent: {}
+[25.655971] (-) TimerEvent: {}
+[25.757421] (-) TimerEvent: {}
+[25.858501] (-) TimerEvent: {}
+[25.959720] (-) TimerEvent: {}
+[26.060952] (-) TimerEvent: {}
+[26.162185] (-) TimerEvent: {}
+[26.263480] (-) TimerEvent: {}
+[26.364745] (-) TimerEvent: {}
+[26.466025] (-) TimerEvent: {}
+[26.567608] (-) TimerEvent: {}
+[26.669027] (-) TimerEvent: {}
+[26.770186] (-) TimerEvent: {}
+[26.871644] (-) TimerEvent: {}
+[26.972949] (-) TimerEvent: {}
+[27.074376] (-) TimerEvent: {}
+[27.175610] (-) TimerEvent: {}
+[27.276863] (-) TimerEvent: {}
+[27.378140] (-) TimerEvent: {}
+[27.479563] (-) TimerEvent: {}
+[27.580751] (-) TimerEvent: {}
+[27.681882] (-) TimerEvent: {}
+[27.782977] (-) TimerEvent: {}
+[27.883956] (-) TimerEvent: {}
+[27.985111] (-) TimerEvent: {}
+[28.086062] (-) TimerEvent: {}
+[28.186985] (-) TimerEvent: {}
+[28.288103] (-) TimerEvent: {}
+[28.389310] (-) TimerEvent: {}
+[28.490449] (-) TimerEvent: {}
+[28.591589] (-) TimerEvent: {}
+[28.692665] (-) TimerEvent: {}
+[28.793697] (-) TimerEvent: {}
+[28.894782] (-) TimerEvent: {}
+[28.995942] (-) TimerEvent: {}
+[29.097848] (-) TimerEvent: {}
+[29.199004] (-) TimerEvent: {}
+[29.300469] (-) TimerEvent: {}
+[29.404019] (-) TimerEvent: {}
+[29.505430] (-) TimerEvent: {}
+[29.606455] (-) TimerEvent: {}
+[29.707554] (-) TimerEvent: {}
+[29.808657] (-) TimerEvent: {}
+[29.910101] (-) TimerEvent: {}
+[30.011259] (-) TimerEvent: {}
+[30.112450] (-) TimerEvent: {}
+[30.213534] (-) TimerEvent: {}
+[30.314630] (-) TimerEvent: {}
+[30.415744] (-) TimerEvent: {}
+[30.516971] (-) TimerEvent: {}
+[30.618109] (-) TimerEvent: {}
+[30.719216] (-) TimerEvent: {}
+[30.824660] (-) TimerEvent: {}
+[30.925709] (-) TimerEvent: {}
+[31.026775] (-) TimerEvent: {}
+[31.127839] (-) TimerEvent: {}
+[31.229004] (-) TimerEvent: {}
+[31.330190] (-) TimerEvent: {}
+[31.436448] (-) TimerEvent: {}
+[31.537505] (-) TimerEvent: {}
+[31.638561] (-) TimerEvent: {}
+[31.739603] (-) TimerEvent: {}
+[31.840717] (-) TimerEvent: {}
+[31.942431] (-) TimerEvent: {}
+[32.043550] (-) TimerEvent: {}
+[32.144695] (-) TimerEvent: {}
+[32.245771] (-) TimerEvent: {}
+[32.346815] (-) TimerEvent: {}
+[32.447862] (-) TimerEvent: {}
+[32.548996] (-) TimerEvent: {}
+[32.650092] (-) TimerEvent: {}
+[32.751144] (-) TimerEvent: {}
+[32.852263] (-) TimerEvent: {}
+[32.953330] (-) TimerEvent: {}
+[33.054329] (-) TimerEvent: {}
+[33.155407] (-) TimerEvent: {}
+[33.256568] (-) TimerEvent: {}
+[33.357589] (-) TimerEvent: {}
+[33.458619] (-) TimerEvent: {}
+[33.559759] (-) TimerEvent: {}
+[33.660880] (-) TimerEvent: {}
+[33.761944] (-) TimerEvent: {}
+[33.863017] (-) TimerEvent: {}
+[33.964070] (-) TimerEvent: {}
+[34.065137] (-) TimerEvent: {}
+[34.166155] (-) TimerEvent: {}
+[34.267180] (-) TimerEvent: {}
+[34.368366] (-) TimerEvent: {}
+[34.469439] (-) TimerEvent: {}
+[34.570335] (-) TimerEvent: {}
+[34.671293] (-) TimerEvent: {}
+[34.772380] (-) TimerEvent: {}
+[34.873523] (-) TimerEvent: {}
+[34.974745] (-) TimerEvent: {}
+[35.075923] (-) TimerEvent: {}
+[35.177552] (-) TimerEvent: {}
+[35.280326] (-) TimerEvent: {}
+[35.381355] (-) TimerEvent: {}
+[35.482433] (-) TimerEvent: {}
+[35.583515] (-) TimerEvent: {}
+[35.684701] (-) TimerEvent: {}
+[35.785815] (-) TimerEvent: {}
+[35.886908] (-) TimerEvent: {}
+[35.989118] (-) TimerEvent: {}
+[36.091570] (-) TimerEvent: {}
+[36.192739] (-) TimerEvent: {}
+[36.293831] (-) TimerEvent: {}
+[36.394914] (-) TimerEvent: {}
+[36.496025] (-) TimerEvent: {}
+[36.598666] (-) TimerEvent: {}
+[36.699732] (-) TimerEvent: {}
+[36.800859] (-) TimerEvent: {}
+[36.901941] (-) TimerEvent: {}
+[37.002945] (-) TimerEvent: {}
+[37.104002] (-) TimerEvent: {}
+[37.205144] (-) TimerEvent: {}
+[37.306207] (-) TimerEvent: {}
+[37.407258] (-) TimerEvent: {}
+[37.508361] (-) TimerEvent: {}
+[37.609477] (-) TimerEvent: {}
+[37.710570] (-) TimerEvent: {}
+[37.812412] (-) TimerEvent: {}
+[37.913496] (-) TimerEvent: {}
+[38.014573] (-) TimerEvent: {}
+[38.115619] (-) TimerEvent: {}
+[38.216623] (-) TimerEvent: {}
+[38.317630] (-) TimerEvent: {}
+[38.418626] (-) TimerEvent: {}
+[38.519628] (-) TimerEvent: {}
+[38.620743] (-) TimerEvent: {}
+[38.722822] (-) TimerEvent: {}
+[38.823838] (-) TimerEvent: {}
+[38.926089] (-) TimerEvent: {}
+[39.027088] (-) TimerEvent: {}
+[39.128103] (-) TimerEvent: {}
+[39.229143] (-) TimerEvent: {}
+[39.330179] (-) TimerEvent: {}
+[39.431179] (-) TimerEvent: {}
+[39.532156] (-) TimerEvent: {}
+[39.633186] (-) TimerEvent: {}
+[39.734218] (-) TimerEvent: {}
+[39.835311] (-) TimerEvent: {}
+[39.936407] (-) TimerEvent: {}
+[40.037396] (-) TimerEvent: {}
+[40.139534] (-) TimerEvent: {}
+[40.241711] (-) TimerEvent: {}
+[40.343863] (-) TimerEvent: {}
+[40.445017] (-) TimerEvent: {}
+[40.547600] (-) TimerEvent: {}
+[40.650465] (-) TimerEvent: {}
+[40.751497] (-) TimerEvent: {}
+[40.852605] (-) TimerEvent: {}
+[40.953684] (-) TimerEvent: {}
+[41.054752] (-) TimerEvent: {}
+[41.155816] (-) TimerEvent: {}
+[41.256993] (-) TimerEvent: {}
+[41.357997] (-) TimerEvent: {}
+[41.459056] (-) TimerEvent: {}
+[41.560238] (-) TimerEvent: {}
+[41.661341] (-) TimerEvent: {}
+[41.762405] (-) TimerEvent: {}
+[41.863631] (-) TimerEvent: {}
+[41.964768] (-) TimerEvent: {}
+[42.065838] (-) TimerEvent: {}
+[42.166879] (-) TimerEvent: {}
+[42.267983] (-) TimerEvent: {}
+[42.369082] (-) TimerEvent: {}
+[42.470162] (-) TimerEvent: {}
+[42.571201] (-) TimerEvent: {}
+[42.672294] (-) TimerEvent: {}
+[42.773402] (-) TimerEvent: {}
+[42.874462] (-) TimerEvent: {}
+[42.975511] (-) TimerEvent: {}
+[43.076610] (-) TimerEvent: {}
+[43.177696] (-) TimerEvent: {}
+[43.278774] (-) TimerEvent: {}
+[43.380600] (-) TimerEvent: {}
+[43.481700] (-) TimerEvent: {}
+[43.582832] (-) TimerEvent: {}
+[43.683893] (-) TimerEvent: {}
+[43.785000] (-) TimerEvent: {}
+[43.890349] (-) TimerEvent: {}
+[43.991371] (-) TimerEvent: {}
+[44.092540] (-) TimerEvent: {}
+[44.193660] (-) TimerEvent: {}
+[44.294697] (-) TimerEvent: {}
+[44.395801] (-) TimerEvent: {}
+[44.497265] (-) TimerEvent: {}
+[44.599277] (-) TimerEvent: {}
+[44.704533] (-) TimerEvent: {}
+[44.806669] (-) TimerEvent: {}
+[44.907724] (-) TimerEvent: {}
+[45.008852] (-) TimerEvent: {}
+[45.109996] (-) TimerEvent: {}
+[45.212081] (-) TimerEvent: {}
+[45.313204] (-) TimerEvent: {}
+[45.415392] (-) TimerEvent: {}
+[45.517095] (-) TimerEvent: {}
+[45.618751] (-) TimerEvent: {}
+[45.720938] (-) TimerEvent: {}
+[45.823051] (-) TimerEvent: {}
+[45.924048] (-) TimerEvent: {}
+[46.025159] (-) TimerEvent: {}
+[46.126322] (-) TimerEvent: {}
+[46.227387] (-) TimerEvent: {}
+[46.329559] (-) TimerEvent: {}
+[46.435328] (-) TimerEvent: {}
+[46.537646] (-) TimerEvent: {}
+[46.638750] (-) TimerEvent: {}
+[46.740433] (-) TimerEvent: {}
+[46.842794] (-) TimerEvent: {}
+[46.944641] (-) TimerEvent: {}
+[47.046429] (-) TimerEvent: {}
+[47.148132] (-) TimerEvent: {}
+[47.249307] (-) TimerEvent: {}
+[47.350380] (-) TimerEvent: {}
+[47.451488] (-) TimerEvent: {}
+[47.552550] (-) TimerEvent: {}
+[47.653609] (-) TimerEvent: {}
+[47.754701] (-) TimerEvent: {}
+[47.855668] (-) TimerEvent: {}
+[47.956762] (-) TimerEvent: {}
+[48.057830] (-) TimerEvent: {}
+[48.166665] (-) TimerEvent: {}
+[48.267724] (-) TimerEvent: {}
+[48.368842] (-) TimerEvent: {}
+[48.469894] (-) TimerEvent: {}
+[48.570952] (-) TimerEvent: {}
+[48.671961] (-) TimerEvent: {}
+[48.773630] (-) TimerEvent: {}
+[48.874678] (-) TimerEvent: {}
+[48.975734] (-) TimerEvent: {}
+[49.076865] (-) TimerEvent: {}
+[49.177921] (-) TimerEvent: {}
+[49.279014] (-) TimerEvent: {}
+[49.380058] (-) TimerEvent: {}
+[49.481171] (-) TimerEvent: {}
+[49.582268] (-) TimerEvent: {}
+[49.683349] (-) TimerEvent: {}
+[49.784434] (-) TimerEvent: {}
+[49.886073] (-) TimerEvent: {}
+[49.988750] (-) TimerEvent: {}
+[50.090954] (-) TimerEvent: {}
+[50.193248] (-) TimerEvent: {}
+[50.294276] (-) TimerEvent: {}
+[50.395352] (-) TimerEvent: {}
+[50.496391] (-) TimerEvent: {}
+[50.599427] (-) TimerEvent: {}
+[50.700483] (-) TimerEvent: {}
+[50.801552] (-) TimerEvent: {}
+[50.904004] (-) TimerEvent: {}
+[51.005689] (-) TimerEvent: {}
+[51.106748] (-) TimerEvent: {}
+[51.207764] (-) TimerEvent: {}
+[51.308901] (-) TimerEvent: {}
+[51.410070] (-) TimerEvent: {}
+[51.511160] (-) TimerEvent: {}
+[51.612327] (-) TimerEvent: {}
+[51.713399] (-) TimerEvent: {}
+[51.815046] (-) TimerEvent: {}
+[51.916140] (-) TimerEvent: {}
+[52.017218] (-) TimerEvent: {}
+[52.118250] (-) TimerEvent: {}
+[52.219326] (-) TimerEvent: {}
+[52.320405] (-) TimerEvent: {}
+[52.421488] (-) TimerEvent: {}
+[52.522600] (-) TimerEvent: {}
+[52.623659] (-) TimerEvent: {}
+[52.724692] (-) TimerEvent: {}
+[52.825742] (-) TimerEvent: {}
+[52.927344] (-) TimerEvent: {}
+[53.028419] (-) TimerEvent: {}
+[53.129481] (-) TimerEvent: {}
+[53.230522] (-) TimerEvent: {}
+[53.331522] (-) TimerEvent: {}
+[53.432664] (-) TimerEvent: {}
+[53.533746] (-) TimerEvent: {}
+[53.636057] (-) TimerEvent: {}
+[53.738069] (-) TimerEvent: {}
+[53.840699] (-) TimerEvent: {}
+[53.941741] (-) TimerEvent: {}
+[54.042776] (-) TimerEvent: {}
+[54.144489] (-) TimerEvent: {}
+[54.245550] (-) TimerEvent: {}
+[54.346587] (-) TimerEvent: {}
+[54.447623] (-) TimerEvent: {}
+[54.548764] (-) TimerEvent: {}
+[54.649854] (-) TimerEvent: {}
+[54.751582] (-) TimerEvent: {}
+[54.853384] (-) TimerEvent: {}
+[54.954455] (-) TimerEvent: {}
+[55.055518] (-) TimerEvent: {}
+[55.157204] (-) TimerEvent: {}
+[55.259607] (-) TimerEvent: {}
+[55.361340] (-) TimerEvent: {}
+[55.463456] (-) TimerEvent: {}
+[55.564574] (-) TimerEvent: {}
+[55.665639] (-) TimerEvent: {}
+[55.766718] (-) TimerEvent: {}
+[55.867769] (-) TimerEvent: {}
+[55.968906] (-) TimerEvent: {}
+[56.069983] (-) TimerEvent: {}
+[56.170990] (-) TimerEvent: {}
+[56.272041] (-) TimerEvent: {}
+[56.373123] (-) TimerEvent: {}
+[56.474126] (-) TimerEvent: {}
+[56.575262] (-) TimerEvent: {}
+[56.676376] (-) TimerEvent: {}
+[56.777465] (-) TimerEvent: {}
+[56.878476] (-) TimerEvent: {}
+[56.979608] (-) TimerEvent: {}
+[57.080768] (-) TimerEvent: {}
+[57.182441] (-) TimerEvent: {}
+[57.284607] (-) TimerEvent: {}
+[57.386182] (-) TimerEvent: {}
+[57.487191] (-) TimerEvent: {}
+[57.589879] (-) TimerEvent: {}
+[57.690938] (-) TimerEvent: {}
+[57.792049] (-) TimerEvent: {}
+[57.893098] (-) TimerEvent: {}
+[57.994105] (-) TimerEvent: {}
+[58.095108] (-) TimerEvent: {}
+[58.196097] (-) TimerEvent: {}
+[58.297195] (-) TimerEvent: {}
+[58.399718] (-) TimerEvent: {}
+[58.501691] (-) TimerEvent: {}
+[58.603265] (-) TimerEvent: {}
+[58.704253] (-) TimerEvent: {}
+[58.805219] (-) TimerEvent: {}
+[58.906135] (-) TimerEvent: {}
+[59.007105] (-) TimerEvent: {}
+[59.108007] (-) TimerEvent: {}
+[59.208925] (-) TimerEvent: {}
+[59.309833] (-) TimerEvent: {}
+[59.410828] (-) TimerEvent: {}
+[59.511829] (-) TimerEvent: {}
+[59.612926] (-) TimerEvent: {}
+[59.713935] (-) TimerEvent: {}
+[59.814966] (-) TimerEvent: {}
+[59.916004] (-) TimerEvent: {}
+[60.017079] (-) TimerEvent: {}
+[60.118122] (-) TimerEvent: {}
+[60.219128] (-) TimerEvent: {}
+[60.320116] (-) TimerEvent: {}
+[60.421817] (-) TimerEvent: {}
+[60.523949] (-) TimerEvent: {}
+[60.625046] (-) TimerEvent: {}
+[60.726114] (-) TimerEvent: {}
+[60.827192] (-) TimerEvent: {}
+[60.928319] (-) TimerEvent: {}
+[61.029328] (-) TimerEvent: {}
+[61.130424] (-) TimerEvent: {}
+[61.231503] (-) TimerEvent: {}
+[61.332575] (-) TimerEvent: {}
+[61.433668] (-) TimerEvent: {}
+[61.534774] (-) TimerEvent: {}
+[61.635891] (-) TimerEvent: {}
+[61.737013] (-) TimerEvent: {}
+[61.838104] (-) TimerEvent: {}
+[61.939271] (-) TimerEvent: {}
+[62.040426] (-) TimerEvent: {}
+[62.141474] (-) TimerEvent: {}
+[62.242543] (-) TimerEvent: {}
+[62.343609] (-) TimerEvent: {}
+[62.444732] (-) TimerEvent: {}
+[62.545757] (-) TimerEvent: {}
+[62.646824] (-) TimerEvent: {}
+[62.747926] (-) TimerEvent: {}
+[62.849125] (-) TimerEvent: {}
+[62.950202] (-) TimerEvent: {}
+[63.051300] (-) TimerEvent: {}
+[63.152391] (-) TimerEvent: {}
+[63.253458] (-) TimerEvent: {}
+[63.354570] (-) TimerEvent: {}
+[63.455682] (-) TimerEvent: {}
+[63.556808] (-) TimerEvent: {}
+[63.659270] (-) TimerEvent: {}
+[63.761387] (-) TimerEvent: {}
+[63.862476] (-) TimerEvent: {}
+[63.963573] (-) TimerEvent: {}
+[64.064678] (-) TimerEvent: {}
+[64.165750] (-) TimerEvent: {}
+[64.267896] (-) TimerEvent: {}
+[64.369085] (-) TimerEvent: {}
+[64.470130] (-) TimerEvent: {}
+[64.571193] (-) TimerEvent: {}
+[64.672339] (-) TimerEvent: {}
+[64.773373] (-) TimerEvent: {}
+[64.874384] (-) TimerEvent: {}
+[64.977417] (-) TimerEvent: {}
+[65.078379] (-) TimerEvent: {}
+[65.180561] (-) TimerEvent: {}
+[65.281542] (-) TimerEvent: {}
+[65.383064] (-) TimerEvent: {}
+[65.484091] (-) TimerEvent: {}
+[65.587554] (-) TimerEvent: {}
+[65.689144] (-) TimerEvent: {}
+[65.790161] (-) TimerEvent: {}
+[65.891138] (-) TimerEvent: {}
+[65.993196] (-) TimerEvent: {}
+[66.095168] (-) TimerEvent: {}
+[66.196171] (-) TimerEvent: {}
+[66.297251] (-) TimerEvent: {}
+[66.399272] (-) TimerEvent: {}
+[66.500982] (-) TimerEvent: {}
+[66.602077] (-) TimerEvent: {}
+[66.703157] (-) TimerEvent: {}
+[66.805290] (-) TimerEvent: {}
+[66.906443] (-) TimerEvent: {}
+[67.007527] (-) TimerEvent: {}
+[67.108667] (-) TimerEvent: {}
+[67.209719] (-) TimerEvent: {}
+[67.310797] (-) TimerEvent: {}
+[67.411882] (-) TimerEvent: {}
+[67.513023] (-) TimerEvent: {}
+[67.614203] (-) TimerEvent: {}
+[67.715316] (-) TimerEvent: {}
+[67.816422] (-) TimerEvent: {}
+[67.917524] (-) TimerEvent: {}
+[68.018581] (-) TimerEvent: {}
+[68.119640] (-) TimerEvent: {}
+[68.220712] (-) TimerEvent: {}
+[68.321708] (-) TimerEvent: {}
+[68.422817] (-) TimerEvent: {}
+[68.523913] (-) TimerEvent: {}
+[68.625048] (-) TimerEvent: {}
+[68.726076] (-) TimerEvent: {}
+[68.827140] (-) TimerEvent: {}
+[68.928218] (-) TimerEvent: {}
+[69.029879] (-) TimerEvent: {}
+[69.130963] (-) TimerEvent: {}
+[69.232054] (-) TimerEvent: {}
+[69.333189] (-) TimerEvent: {}
+[69.434241] (-) TimerEvent: {}
+[69.535863] (-) TimerEvent: {}
+[69.637441] (-) TimerEvent: {}
+[69.738507] (-) TimerEvent: {}
+[69.839499] (-) TimerEvent: {}
+[69.940603] (-) TimerEvent: {}
+[70.041630] (-) TimerEvent: {}
+[70.143315] (-) TimerEvent: {}
+[70.245656] (-) TimerEvent: {}
+[70.349189] (-) TimerEvent: {}
+[70.450236] (-) TimerEvent: {}
+[70.551283] (-) TimerEvent: {}
+[70.652922] (-) TimerEvent: {}
+[70.754001] (-) TimerEvent: {}
+[70.855211] (-) TimerEvent: {}
+[70.956280] (-) TimerEvent: {}
+[71.057424] (-) TimerEvent: {}
+[71.159919] (-) TimerEvent: {}
+[71.263310] (-) TimerEvent: {}
+[71.364388] (-) TimerEvent: {}
+[71.465419] (-) TimerEvent: {}
+[71.566477] (-) TimerEvent: {}
+[71.667653] (-) TimerEvent: {}
+[71.768790] (-) TimerEvent: {}
+[71.869879] (-) TimerEvent: {}
+[71.970979] (-) TimerEvent: {}
+[72.072058] (-) TimerEvent: {}
+[72.173185] (-) TimerEvent: {}
+[72.274233] (-) TimerEvent: {}
+[72.375320] (-) TimerEvent: {}
+[72.476429] (-) TimerEvent: {}
+[72.577508] (-) TimerEvent: {}
+[72.678694] (-) TimerEvent: {}
+[72.779875] (-) TimerEvent: {}
+[72.881867] (-) TimerEvent: {}
+[72.983640] (-) TimerEvent: {}
+[73.084749] (-) TimerEvent: {}
+[73.186428] (-) TimerEvent: {}
+[73.287499] (-) TimerEvent: {}
+[73.388557] (-) TimerEvent: {}
+[73.489593] (-) TimerEvent: {}
+[73.590581] (-) TimerEvent: {}
+[73.691598] (-) TimerEvent: {}
+[73.792769] (-) TimerEvent: {}
+[73.894855] (-) TimerEvent: {}
+[73.995954] (-) TimerEvent: {}
+[74.097124] (-) TimerEvent: {}
+[74.198194] (-) TimerEvent: {}
+[74.299190] (-) TimerEvent: {}
+[74.400329] (-) TimerEvent: {}
+[74.501399] (-) TimerEvent: {}
+[74.602428] (-) TimerEvent: {}
+[74.703491] (-) TimerEvent: {}
+[74.804551] (-) TimerEvent: {}
+[74.906257] (-) TimerEvent: {}
+[75.008404] (-) TimerEvent: {}
+[75.110819] (-) TimerEvent: {}
+[75.211890] (-) TimerEvent: {}
+[75.313681] (-) TimerEvent: {}
+[75.415377] (-) TimerEvent: {}
+[75.517576] (-) TimerEvent: {}
+[75.618576] (-) TimerEvent: {}
+[75.719646] (-) TimerEvent: {}
+[75.820810] (-) TimerEvent: {}
+[75.921915] (-) TimerEvent: {}
+[76.024048] (-) TimerEvent: {}
+[76.126290] (-) TimerEvent: {}
+[76.227893] (-) TimerEvent: {}
+[76.329622] (-) TimerEvent: {}
+[76.431357] (-) TimerEvent: {}
+[76.532475] (-) TimerEvent: {}
+[76.633617] (-) TimerEvent: {}
+[76.734683] (-) TimerEvent: {}
+[76.836830] (-) TimerEvent: {}
+[76.937957] (-) TimerEvent: {}
+[77.040117] (-) TimerEvent: {}
+[77.142220] (-) TimerEvent: {}
+[77.244389] (-) TimerEvent: {}
+[77.346031] (-) TimerEvent: {}
+[77.447064] (-) TimerEvent: {}
+[77.548149] (-) TimerEvent: {}
+[77.649251] (-) TimerEvent: {}
+[77.750292] (-) TimerEvent: {}
+[77.852279] (-) TimerEvent: {}
+[77.953358] (-) TimerEvent: {}
+[78.056712] (-) TimerEvent: {}
+[78.159519] (-) TimerEvent: {}
+[78.260574] (-) TimerEvent: {}
+[78.361575] (-) TimerEvent: {}
+[78.462650] (-) TimerEvent: {}
+[78.563792] (-) TimerEvent: {}
+[78.664918] (-) TimerEvent: {}
+[78.765910] (-) TimerEvent: {}
+[78.866979] (-) TimerEvent: {}
+[78.969189] (-) TimerEvent: {}
+[79.070264] (-) TimerEvent: {}
+[79.172430] (-) TimerEvent: {}
+[79.274691] (-) TimerEvent: {}
+[79.375770] (-) TimerEvent: {}
+[79.476913] (-) TimerEvent: {}
+[79.577979] (-) TimerEvent: {}
+[79.679066] (-) TimerEvent: {}
+[79.780156] (-) TimerEvent: {}
+[79.881258] (-) TimerEvent: {}
+[79.983434] (-) TimerEvent: {}
+[80.085222] (-) TimerEvent: {}
+[80.186241] (-) TimerEvent: {}
+[80.287295] (-) TimerEvent: {}
+[80.388390] (-) TimerEvent: {}
+[80.489447] (-) TimerEvent: {}
+[80.590515] (-) TimerEvent: {}
+[80.692677] (-) TimerEvent: {}
+[80.793739] (-) TimerEvent: {}
+[80.894812] (-) TimerEvent: {}
+[80.995894] (-) TimerEvent: {}
+[81.097069] (-) TimerEvent: {}
+[81.198218] (-) TimerEvent: {}
+[81.299291] (-) TimerEvent: {}
+[81.400361] (-) TimerEvent: {}
+[81.502018] (-) TimerEvent: {}
+[81.603143] (-) TimerEvent: {}
+[81.704275] (-) TimerEvent: {}
+[81.805975] (-) TimerEvent: {}
+[81.907661] (-) TimerEvent: {}
+[82.009395] (-) TimerEvent: {}
+[82.110494] (-) TimerEvent: {}
+[82.213361] (-) TimerEvent: {}
+[82.315167] (-) TimerEvent: {}
+[82.417077] (-) TimerEvent: {}
+[82.518949] (-) TimerEvent: {}
+[82.620078] (-) TimerEvent: {}
+[82.721326] (-) TimerEvent: {}
+[82.822435] (-) TimerEvent: {}
+[82.923494] (-) TimerEvent: {}
+[83.024623] (-) TimerEvent: {}
+[83.127707] (-) TimerEvent: {}
+[83.229683] (-) TimerEvent: {}
+[83.331395] (-) TimerEvent: {}
+[83.433200] (-) TimerEvent: {}
+[83.534178] (-) TimerEvent: {}
+[83.636398] (-) TimerEvent: {}
+[83.737538] (-) TimerEvent: {}
+[83.838551] (-) TimerEvent: {}
+[83.939626] (-) TimerEvent: {}
+[84.040668] (-) TimerEvent: {}
+[84.141708] (-) TimerEvent: {}
+[84.244888] (-) TimerEvent: {}
+[84.345936] (-) TimerEvent: {}
+[84.447009] (-) TimerEvent: {}
+[84.548086] (-) TimerEvent: {}
+[84.649212] (-) TimerEvent: {}
+[84.750322] (-) TimerEvent: {}
+[84.855228] (-) TimerEvent: {}
+[84.958379] (-) TimerEvent: {}
+[85.059457] (-) TimerEvent: {}
+[85.160556] (-) TimerEvent: {}
+[85.261605] (-) TimerEvent: {}
+[85.362682] (-) TimerEvent: {}
+[85.464369] (-) TimerEvent: {}
+[85.565490] (-) TimerEvent: {}
+[85.666569] (-) TimerEvent: {}
+[85.767794] (-) TimerEvent: {}
+[85.873022] (-) TimerEvent: {}
+[85.974866] (-) TimerEvent: {}
+[86.075960] (-) TimerEvent: {}
+[86.177087] (-) TimerEvent: {}
+[86.278180] (-) TimerEvent: {}
+[86.379261] (-) TimerEvent: {}
+[86.480423] (-) TimerEvent: {}
+[86.581505] (-) TimerEvent: {}
+[86.682577] (-) TimerEvent: {}
+[86.784295] (-) TimerEvent: {}
+[86.885412] (-) TimerEvent: {}
+[86.986518] (-) TimerEvent: {}
+[87.088677] (-) TimerEvent: {}
+[87.190830] (-) TimerEvent: {}
+[87.292934] (-) TimerEvent: {}
+[87.394021] (-) TimerEvent: {}
+[87.495136] (-) TimerEvent: {}
+[87.596288] (-) TimerEvent: {}
+[87.697438] (-) TimerEvent: {}
+[87.798378] (-) TimerEvent: {}
+[87.899465] (-) TimerEvent: {}
+[88.001846] (-) TimerEvent: {}
+[88.103860] (-) TimerEvent: {}
+[88.204867] (-) TimerEvent: {}
+[88.305841] (-) TimerEvent: {}
+[88.406880] (-) TimerEvent: {}
+[88.507918] (-) TimerEvent: {}
+[88.609062] (-) TimerEvent: {}
+[88.710179] (-) TimerEvent: {}
+[88.811246] (-) TimerEvent: {}
+[88.912335] (-) TimerEvent: {}
+[89.014362] (-) TimerEvent: {}
+[89.118523] (-) TimerEvent: {}
+[89.220175] (-) TimerEvent: {}
+[89.321297] (-) TimerEvent: {}
+[89.422343] (-) TimerEvent: {}
+[89.523410] (-) TimerEvent: {}
+[89.624481] (-) TimerEvent: {}
+[89.725514] (-) TimerEvent: {}
+[89.826527] (-) TimerEvent: {}
+[89.927564] (-) TimerEvent: {}
+[90.028661] (-) TimerEvent: {}
+[90.129705] (-) TimerEvent: {}
+[90.231804] (-) TimerEvent: {}
+[90.334002] (-) TimerEvent: {}
+[90.435087] (-) TimerEvent: {}
+[90.536141] (-) TimerEvent: {}
+[90.637194] (-) TimerEvent: {}
+[90.738277] (-) TimerEvent: {}
+[90.839285] (-) TimerEvent: {}
+[90.941984] (-) TimerEvent: {}
+[91.044044] (-) TimerEvent: {}
+[91.145048] (-) TimerEvent: {}
+[91.246059] (-) TimerEvent: {}
+[91.347024] (-) TimerEvent: {}
+[91.448645] (-) TimerEvent: {}
+[91.549638] (-) TimerEvent: {}
+[91.650648] (-) TimerEvent: {}
+[91.751705] (-) TimerEvent: {}
+[91.852695] (-) TimerEvent: {}
+[91.953685] (-) TimerEvent: {}
+[92.054682] (-) TimerEvent: {}
+[92.155616] (-) TimerEvent: {}
+[92.256642] (-) TimerEvent: {}
+[92.357596] (-) TimerEvent: {}
+[92.458598] (-) TimerEvent: {}
+[92.559510] (-) TimerEvent: {}
+[92.660538] (-) TimerEvent: {}
+[92.761501] (-) TimerEvent: {}
+[92.862529] (-) TimerEvent: {}
+[92.963544] (-) TimerEvent: {}
+[93.064605] (-) TimerEvent: {}
+[93.165591] (-) TimerEvent: {}
+[93.266583] (-) TimerEvent: {}
+[93.367657] (-) TimerEvent: {}
+[93.468763] (-) TimerEvent: {}
+[93.570347] (-) TimerEvent: {}
+[93.671288] (-) TimerEvent: {}
+[93.772321] (-) TimerEvent: {}
+[93.873871] (-) TimerEvent: {}
+[93.975405] (-) TimerEvent: {}
+[94.076442] (-) TimerEvent: {}
+[94.178016] (-) TimerEvent: {}
+[94.279554] (-) TimerEvent: {}
+[94.380537] (-) TimerEvent: {}
+[94.481479] (-) TimerEvent: {}
+[94.583043] (-) TimerEvent: {}
+[94.684710] (-) TimerEvent: {}
+[94.786285] (-) TimerEvent: {}
+[94.887772] (-) TimerEvent: {}
+[94.989358] (-) TimerEvent: {}
+[95.090900] (-) TimerEvent: {}
+[95.192464] (-) TimerEvent: {}
+[95.293958] (-) TimerEvent: {}
+[95.395499] (-) TimerEvent: {}
+[95.497077] (-) TimerEvent: {}
+[95.598553] (-) TimerEvent: {}
+[95.700093] (-) TimerEvent: {}
+[95.801677] (-) TimerEvent: {}
+[95.903294] (-) TimerEvent: {}
+[96.004947] (-) TimerEvent: {}
+[96.106513] (-) TimerEvent: {}
+[96.208035] (-) TimerEvent: {}
+[96.309576] (-) TimerEvent: {}
+[96.411366] (-) TimerEvent: {}
+[96.512924] (-) TimerEvent: {}
+[96.613963] (-) TimerEvent: {}
+[96.714958] (-) TimerEvent: {}
+[96.815937] (-) TimerEvent: {}
+[96.916939] (-) TimerEvent: {}
+[97.018447] (-) TimerEvent: {}
+[97.119984] (-) TimerEvent: {}
+[97.222113] (-) TimerEvent: {}
+[97.323624] (-) TimerEvent: {}
+[97.425179] (-) TimerEvent: {}
+[97.526685] (-) TimerEvent: {}
+[97.628292] (-) TimerEvent: {}
+[97.729378] (-) TimerEvent: {}
+[97.830367] (-) TimerEvent: {}
+[97.931852] (-) TimerEvent: {}
+[98.033437] (-) TimerEvent: {}
+[98.134958] (-) TimerEvent: {}
+[98.236487] (-) TimerEvent: {}
+[98.337987] (-) TimerEvent: {}
+[98.439555] (-) TimerEvent: {}
+[98.541173] (-) TimerEvent: {}
+[98.642803] (-) TimerEvent: {}
+[98.743787] (-) TimerEvent: {}
+[98.845379] (-) TimerEvent: {}
+[98.947163] (-) TimerEvent: {}
+[99.048745] (-) TimerEvent: {}
+[99.150310] (-) TimerEvent: {}
+[99.251261] (-) TimerEvent: {}
+[99.352328] (-) TimerEvent: {}
+[99.453804] (-) TimerEvent: {}
+[99.555303] (-) TimerEvent: {}
+[99.657420] (-) TimerEvent: {}
+[99.758924] (-) TimerEvent: {}
+[99.860831] (-) TimerEvent: {}
+[99.961838] (-) TimerEvent: {}
+[100.063412] (-) TimerEvent: {}
+[100.164963] (-) TimerEvent: {}
+[100.266451] (-) TimerEvent: {}
+[100.367987] (-) TimerEvent: {}
+[100.469083] (-) TimerEvent: {}
+[100.570609] (-) TimerEvent: {}
+[100.672157] (-) TimerEvent: {}
+[100.773683] (-) TimerEvent: {}
+[100.875169] (-) TimerEvent: {}
+[100.977167] (-) TimerEvent: {}
+[101.078730] (-) TimerEvent: {}
+[101.180342] (-) TimerEvent: {}
+[101.281895] (-) TimerEvent: {}
+[101.383442] (-) TimerEvent: {}
+[101.485049] (-) TimerEvent: {}
+[101.586725] (-) TimerEvent: {}
+[101.687706] (-) TimerEvent: {}
+[101.788752] (-) TimerEvent: {}
+[101.889768] (-) TimerEvent: {}
+[101.990810] (-) TimerEvent: {}
+[102.091809] (-) TimerEvent: {}
+[102.192748] (-) TimerEvent: {}
+[102.294348] (-) TimerEvent: {}
+[102.396932] (-) TimerEvent: {}
+[102.498340] (-) TimerEvent: {}
+[102.599802] (-) TimerEvent: {}
+[102.700906] (-) TimerEvent: {}
+[102.801880] (-) TimerEvent: {}
+[102.902796] (-) TimerEvent: {}
+[103.003698] (-) TimerEvent: {}
+[103.104641] (-) TimerEvent: {}
+[103.206067] (-) TimerEvent: {}
+[103.307925] (-) TimerEvent: {}
+[103.409375] (-) TimerEvent: {}
+[103.510793] (-) TimerEvent: {}
+[103.612267] (-) TimerEvent: {}
+[103.713681] (-) TimerEvent: {}
+[103.814608] (-) TimerEvent: {}
+[103.915557] (-) TimerEvent: {}
+[104.017158] (-) TimerEvent: {}
+[104.118594] (-) TimerEvent: {}
+[104.220022] (-) TimerEvent: {}
+[104.321518] (-) TimerEvent: {}
+[104.422963] (-) TimerEvent: {}
+[104.524399] (-) TimerEvent: {}
+[104.625836] (-) TimerEvent: {}
+[104.727303] (-) TimerEvent: {}
+[104.828760] (-) TimerEvent: {}
+[104.929686] (-) TimerEvent: {}
+[105.030622] (-) TimerEvent: {}
+[105.131558] (-) TimerEvent: {}
+[105.233058] (-) TimerEvent: {}
+[105.334485] (-) TimerEvent: {}
+[105.436356] (-) TimerEvent: {}
+[105.537829] (-) TimerEvent: {}
+[105.639240] (-) TimerEvent: {}
+[105.740682] (-) TimerEvent: {}
+[105.842082] (-) TimerEvent: {}
+[105.943490] (-) TimerEvent: {}
+[106.044950] (-) TimerEvent: {}
+[106.146477] (-) TimerEvent: {}
+[106.247926] (-) TimerEvent: {}
+[106.349487] (-) TimerEvent: {}
+[106.450969] (-) TimerEvent: {}
+[106.552952] (-) TimerEvent: {}
+[106.653919] (-) TimerEvent: {}
+[106.754832] (-) TimerEvent: {}
+[106.855760] (-) TimerEvent: {}
+[106.956726] (-) TimerEvent: {}
+[107.057621] (-) TimerEvent: {}
+[107.158546] (-) TimerEvent: {}
+[107.259478] (-) TimerEvent: {}
+[107.360425] (-) TimerEvent: {}
+[107.461375] (-) TimerEvent: {}
+[107.562314] (-) TimerEvent: {}
+[107.663290] (-) TimerEvent: {}
+[107.764340] (-) TimerEvent: {}
+[107.865272] (-) TimerEvent: {}
+[107.966196] (-) TimerEvent: {}
+[108.067774] (-) TimerEvent: {}
+[108.169309] (-) TimerEvent: {}
+[108.270835] (-) TimerEvent: {}
+[108.372372] (-) TimerEvent: {}
+[108.473894] (-) TimerEvent: {}
+[108.575279] (-) TimerEvent: {}
+[108.676727] (-) TimerEvent: {}
+[108.778112] (-) TimerEvent: {}
+[108.879506] (-) TimerEvent: {}
+[108.980584] (-) TimerEvent: {}
+[109.081670] (-) TimerEvent: {}
+[109.182629] (-) TimerEvent: {}
+[109.283570] (-) TimerEvent: {}
+[109.384525] (-) TimerEvent: {}
+[109.485452] (-) TimerEvent: {}
+[109.586405] (-) TimerEvent: {}
+[109.687354] (-) TimerEvent: {}
+[109.788349] (-) TimerEvent: {}
+[109.889340] (-) TimerEvent: {}
+[109.920097] (armquadrover) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable SerialNode\x1b[0m\n'}
+[109.989609] (-) TimerEvent: {}
+[110.090788] (-) TimerEvent: {}
+[110.191914] (-) TimerEvent: {}
+[110.292949] (-) TimerEvent: {}
+[110.394368] (-) TimerEvent: {}
+[110.495924] (-) TimerEvent: {}
+[110.597165] (-) TimerEvent: {}
+[110.698377] (-) TimerEvent: {}
+[110.799473] (-) TimerEvent: {}
+[110.900661] (-) TimerEvent: {}
+[111.001917] (-) TimerEvent: {}
+[111.103098] (-) TimerEvent: {}
+[111.204493] (-) TimerEvent: {}
+[111.305744] (-) TimerEvent: {}
+[111.406832] (-) TimerEvent: {}
+[111.508537] (-) TimerEvent: {}
+[111.609769] (-) TimerEvent: {}
+[111.711014] (-) TimerEvent: {}
+[111.812055] (-) TimerEvent: {}
+[111.913290] (-) TimerEvent: {}
+[112.014568] (-) TimerEvent: {}
+[112.115700] (-) TimerEvent: {}
+[112.217457] (-) TimerEvent: {}
+[112.318495] (-) TimerEvent: {}
+[112.419906] (-) TimerEvent: {}
+[112.521057] (-) TimerEvent: {}
+[112.622055] (-) TimerEvent: {}
+[112.723028] (-) TimerEvent: {}
+[112.823980] (-) TimerEvent: {}
+[112.924997] (-) TimerEvent: {}
+[113.025941] (-) TimerEvent: {}
+[113.126922] (-) TimerEvent: {}
+[113.227879] (-) TimerEvent: {}
+[113.328910] (-) TimerEvent: {}
+[113.430381] (-) TimerEvent: {}
+[113.532389] (-) TimerEvent: {}
+[113.633851] (-) TimerEvent: {}
+[113.734804] (-) TimerEvent: {}
+[113.835783] (-) TimerEvent: {}
+[113.936801] (-) TimerEvent: {}
+[114.037734] (-) TimerEvent: {}
+[114.138667] (-) TimerEvent: {}
+[114.239624] (-) TimerEvent: {}
+[114.340613] (-) TimerEvent: {}
+[114.441586] (-) TimerEvent: {}
+[114.542662] (-) TimerEvent: {}
+[114.643675] (-) TimerEvent: {}
+[114.744725] (-) TimerEvent: {}
+[114.845696] (-) TimerEvent: {}
+[114.946524] (-) TimerEvent: {}
+[115.047448] (-) TimerEvent: {}
+[115.148587] (-) TimerEvent: {}
+[115.249472] (-) TimerEvent: {}
+[115.350530] (-) TimerEvent: {}
+[115.451579] (-) TimerEvent: {}
+[115.514733] (armquadrover) StdoutLine: {'line': b'[ 62%] Built target SerialNode\n'}
+[115.551795] (-) TimerEvent: {}
+[115.653387] (-) TimerEvent: {}
+[115.691407] (armquadrover) StdoutLine: {'line': b'[100%] Built target ArmServer\n'}
+[115.753629] (-) TimerEvent: {}
+[115.854668] (-) TimerEvent: {}
+[115.877180] (armquadrover) CommandEnded: {'returncode': 0}
+[115.954883] (-) TimerEvent: {}
+[116.055942] (-) TimerEvent: {}
+[116.156993] (-) TimerEvent: {}
+[116.258030] (-) TimerEvent: {}
+[116.359201] (-) TimerEvent: {}
+[116.460153] (-) TimerEvent: {}
+[116.561878] (-) TimerEvent: {}
+[116.662917] (-) TimerEvent: {}
+[116.675898] (armquadrover) JobProgress: {'identifier': 'armquadrover', 'progress': 'install'}
+[116.677964] (armquadrover) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/root/real_ws/build/armquadrover'], 'cwd': '/root/real_ws/build/armquadrover', 'env': OrderedDict([('USER', 'root'), ('SSH_CLIENT', '192.168.137.1 51513 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/real_ws/install/armquadrover_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.90.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-7d9391ee-0622-4cdb-b15c-e23a4e2d0037.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install:/root/urdf_ws/install:/root/real_ws/install:/root/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '22'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-f973ab10cc.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/depth_image_processing:/root/dev_ws/install/all_test:/root/catkin_ws/install/xyz:/root/urdf_ws/install/doubleconfig:/root/urdf_ws/install/double3config:/root/urdf_ws/install/doublearm6_description:/root/real_ws/install/armquadrover_msgs:/root/real_ws/install/armquadrover:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/real_ws/build/armquadrover'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.1 51513 192.168.137.25 22'), ('PYTHONPATH', '/root/urdf_ws/install/doublearm6_description/lib/python3.10/site-packages:/root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/lib/python3/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/depth_image_processing:/root/dev_ws/install/all_test:/root/catkin_ws/install/xyz:/root/urdf_ws/install/doubleconfig:/root/urdf_ws/install/double3config:/root/real_ws/install/armquadrover_msgs:/root/real_ws/install/armquadrover:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble')]), 'shell': False}
+[116.763168] (-) TimerEvent: {}
+[116.864291] (-) TimerEvent: {}
+[116.965238] (-) TimerEvent: {}
+[117.066207] (-) TimerEvent: {}
+[117.167171] (-) TimerEvent: {}
+[117.250679] (armquadrover) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[117.269199] (-) TimerEvent: {}
+[117.272533] (armquadrover) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover/share/ament_index/resource_index/package_run_dependencies/armquadrover\n'}
+[117.273454] (armquadrover) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover/share/ament_index/resource_index/parent_prefix_path/armquadrover\n'}
+[117.274279] (armquadrover) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/environment/ament_prefix_path.sh\n'}
+[117.275173] (armquadrover) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/environment/ament_prefix_path.dsv\n'}
+[117.288323] (armquadrover) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/environment/path.sh\n'}
+[117.289456] (armquadrover) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/environment/path.dsv\n'}
+[117.290367] (armquadrover) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/local_setup.bash\n'}
+[117.291175] (armquadrover) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/local_setup.sh\n'}
+[117.301127] (armquadrover) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/local_setup.zsh\n'}
+[117.302246] (armquadrover) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/local_setup.dsv\n'}
+[117.303193] (armquadrover) StdoutLine: {'line': b'-- Installing: /root/real_ws/install/armquadrover/share/armquadrover/package.dsv\n'}
+[117.304091] (armquadrover) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover/share/ament_index/resource_index/packages/armquadrover\n'}
+[117.313176] (armquadrover) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/cmake/armquadroverConfig.cmake\n'}
+[117.314099] (armquadrover) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/cmake/armquadroverConfig-version.cmake\n'}
+[117.315011] (armquadrover) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/package.xml\n'}
+[117.315938] (armquadrover) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover/lib/armquadrover/node_01\n'}
+[117.321171] (armquadrover) StdoutLine: {'line': b'-- Up-to-date: /root/real_ws/install/armquadrover/lib/armquadrover/ArmServer\n'}
+[117.322086] (armquadrover) StdoutLine: {'line': b'-- Installing: /root/real_ws/install/armquadrover/lib/armquadrover/SerialNode\n'}
+[117.322838] (armquadrover) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/real_ws/install/armquadrover/lib/armquadrover/SerialNode" to ""\n'}
+[117.369516] (-) TimerEvent: {}
+[117.441526] (armquadrover) CommandEnded: {'returncode': 0}
+[117.470229] (-) TimerEvent: {}
+[117.574861] (-) TimerEvent: {}
+[117.675978] (-) TimerEvent: {}
+[117.777112] (-) TimerEvent: {}
+[117.887520] (-) TimerEvent: {}
+[117.990291] (-) TimerEvent: {}
+[118.091233] (-) TimerEvent: {}
+[118.192588] (-) TimerEvent: {}
+[118.294292] (-) TimerEvent: {}
+[118.371739] (armquadrover) JobEnded: {'identifier': 'armquadrover', 'rc': 0}
+[118.377336] (-) EventReactorShutdown: {}

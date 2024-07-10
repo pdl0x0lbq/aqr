@@ -1,0 +1,10 @@
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:[m[K In constructor ‘[01m[KSerialNode::SerialNode()[m[K’:
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:40:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess_left_subscription_[m[K’ was not declared in this scope
+   40 |         [01;31m[Ksuccess_left_subscription_[m[K = this->create_subscription<std_msgs::msg::Bool>("/moveit_success_left", 10, std::bind(&SerialNode::leftSuccessCallback, this, std::placeholders::_1));
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess_right_subscription_[m[K’ was not declared in this scope
+   42 |         [01;31m[Ksuccess_right_subscription_[m[K = this->create_subscription<std_msgs::msg::Bool>("/moveit_success_right", 10, std::bind(&SerialNode::rightSuccessCallback, this, std::placeholders::_1));
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/SerialNode.dir/build.make:76: CMakeFiles/SerialNode.dir/src/SerialNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/SerialNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

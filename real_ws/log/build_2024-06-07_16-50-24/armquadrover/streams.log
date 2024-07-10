@@ -1,0 +1,30 @@
+[0.185s] Invoking command in '/root/real_ws/build/armquadrover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble /usr/local/bin/cmake --build /root/real_ws/build/armquadrover -- -j4 -l4
+[1.957s] [ 25%] Built target node_01
+[2.183s] [35m[1mConsolidate compiler generated dependencies of target SerialNode[0m
+[2.454s] [ 37%] [32mBuilding CXX object CMakeFiles/SerialNode.dir/src/SerialNode.cpp.o[0m
+[123.772s] [ 50%] [32m[1mLinking CXX executable SerialNode[0m
+[130.691s] [ 62%] Built target SerialNode
+[131.287s] [100%] Built target ArmServer
+[131.744s] Invoked command in '/root/real_ws/build/armquadrover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble /usr/local/bin/cmake --build /root/real_ws/build/armquadrover -- -j4 -l4
+[133.285s] Invoking command in '/root/real_ws/build/armquadrover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble /usr/local/bin/cmake --install /root/real_ws/build/armquadrover
+[133.946s] -- Install configuration: ""
+[133.955s] -- Up-to-date: /root/real_ws/install/armquadrover/share/ament_index/resource_index/package_run_dependencies/armquadrover
+[133.967s] -- Up-to-date: /root/real_ws/install/armquadrover/share/ament_index/resource_index/parent_prefix_path/armquadrover
+[133.978s] -- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/environment/ament_prefix_path.sh
+[133.981s] -- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/environment/ament_prefix_path.dsv
+[133.983s] -- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/environment/path.sh
+[133.985s] -- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/environment/path.dsv
+[133.987s] -- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/local_setup.bash
+[133.990s] -- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/local_setup.sh
+[133.992s] -- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/local_setup.zsh
+[133.994s] -- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/local_setup.dsv
+[133.998s] -- Installing: /root/real_ws/install/armquadrover/share/armquadrover/package.dsv
+[134.003s] -- Up-to-date: /root/real_ws/install/armquadrover/share/ament_index/resource_index/packages/armquadrover
+[134.007s] -- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/cmake/armquadroverConfig.cmake
+[134.009s] -- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/cmake/armquadroverConfig-version.cmake
+[134.013s] -- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/package.xml
+[134.019s] -- Up-to-date: /root/real_ws/install/armquadrover/lib/armquadrover/node_01
+[134.035s] -- Up-to-date: /root/real_ws/install/armquadrover/lib/armquadrover/ArmServer
+[134.043s] -- Installing: /root/real_ws/install/armquadrover/lib/armquadrover/SerialNode
+[134.101s] -- Set non-toolchain portion of runtime path of "/root/real_ws/install/armquadrover/lib/armquadrover/SerialNode" to ""
+[134.335s] Invoked command in '/root/real_ws/build/armquadrover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble /usr/local/bin/cmake --install /root/real_ws/build/armquadrover

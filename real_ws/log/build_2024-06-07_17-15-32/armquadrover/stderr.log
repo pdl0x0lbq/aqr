@@ -1,0 +1,8 @@
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/Action.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse MyActionRobot::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<control_msgs::action::FollowJointTrajectory> >)[m[K’:
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/Action.cpp:36:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   36 |     rclcpp_action::CancelResponse MyActionRobot::handle_cancel([01;35m[Kconst std::shared_ptr<GoalHandleFJT> goal_handle[m[K)
+      |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/Action.cpp:[m[K In member function ‘[01m[Kvoid MyActionRobot::execute_move(std::shared_ptr<rclcpp_action::ServerGoalHandle<control_msgs::action::FollowJointTrajectory> >)[m[K’:
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/Action.cpp:55:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   55 |     while (rclcpp::ok() && [01;35m[KtrjIdx < trjPointsSize[m[K) {
+      |                            [01;35m[K~~~~~~~^~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,37 @@
+[ 25%] Built target node_01
+[35m[1mConsolidate compiler generated dependencies of target SerialNode[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/SerialNode.dir/src/SerialNode.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable SerialNode[0m
+[ 62%] Built target SerialNode
+[ 75%] [32mBuilding CXX object CMakeFiles/ArmServer.dir/src/Action.cpp.o[0m
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/Action.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse MyActionRobot::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<control_msgs::action::FollowJointTrajectory> >)[m[K’:
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/Action.cpp:36:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   36 |     rclcpp_action::CancelResponse MyActionRobot::handle_cancel([01;35m[Kconst std::shared_ptr<GoalHandleFJT> goal_handle[m[K)
+      |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/Action.cpp:[m[K In member function ‘[01m[Kvoid MyActionRobot::execute_move(std::shared_ptr<rclcpp_action::ServerGoalHandle<control_msgs::action::FollowJointTrajectory> >)[m[K’:
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/Action.cpp:55:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   55 |     while (rclcpp::ok() && [01;35m[KtrjIdx < trjPointsSize[m[K) {
+      |                            [01;35m[K~~~~~~~^~~~~~~~~~~~~~~[m[K
+[ 87%] [32m[1mLinking CXX executable ArmServer[0m
+[100%] Built target ArmServer
+-- Install configuration: ""
+-- Up-to-date: /root/real_ws/install/armquadrover/share/ament_index/resource_index/package_run_dependencies/armquadrover
+-- Up-to-date: /root/real_ws/install/armquadrover/share/ament_index/resource_index/parent_prefix_path/armquadrover
+-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/environment/ament_prefix_path.sh
+-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/environment/path.sh
+-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/environment/path.dsv
+-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/local_setup.bash
+-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/local_setup.sh
+-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/local_setup.zsh
+-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/local_setup.dsv
+-- Installing: /root/real_ws/install/armquadrover/share/armquadrover/package.dsv
+-- Up-to-date: /root/real_ws/install/armquadrover/share/ament_index/resource_index/packages/armquadrover
+-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/cmake/armquadroverConfig.cmake
+-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/cmake/armquadroverConfig-version.cmake
+-- Up-to-date: /root/real_ws/install/armquadrover/share/armquadrover/package.xml
+-- Up-to-date: /root/real_ws/install/armquadrover/lib/armquadrover/node_01
+-- Installing: /root/real_ws/install/armquadrover/lib/armquadrover/ArmServer
+-- Set non-toolchain portion of runtime path of "/root/real_ws/install/armquadrover/lib/armquadrover/ArmServer" to ""
+-- Installing: /root/real_ws/install/armquadrover/lib/armquadrover/SerialNode
+-- Set non-toolchain portion of runtime path of "/root/real_ws/install/armquadrover/lib/armquadrover/SerialNode" to ""

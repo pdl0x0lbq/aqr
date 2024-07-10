@@ -1,0 +1,4 @@
+cv_bridge
+rclpy
+sensor_msgs
+setuptools

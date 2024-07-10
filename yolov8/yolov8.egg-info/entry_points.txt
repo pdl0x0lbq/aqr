@@ -1,0 +1,3 @@
+[console_scripts]
+yolo_cut = yolov8.yolo_cut:main
+

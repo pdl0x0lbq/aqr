@@ -1,0 +1,63 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/quardc.cpp:2[m[K:
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/quardc.cpp:[m[K In member function ‘[01m[Kvoid TopicPublisher01::timer_stepping_callback()[m[K’:
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/quardc.cpp:30:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   30 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: '%s'"[m[K, [32m[Kmessage.data[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~[m[K
+      |                                                                     [32m[K|[m[K
+      |                                                                     [32m[Kstd_msgs::msg::Int32_<std::allocator<void> >::_data_type {aka int}[m[K
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/quardc.cpp:30:56:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   30 |         RCLCPP_INFO(this->get_logger(), "Publishing: '[01;36m[K%s[m[K'", message.data);
+      |                                                       [01;36m[K~^[m[K
+      |                                                        [01;36m[K|[m[K
+      |                                                        [01;36m[Kchar*[m[K
+      |                                                       [32m[K%d[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/quardc.cpp:2[m[K:
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/quardc.cpp:[m[K In member function ‘[01m[Kvoid TopicPublisher01::timer_base_callback()[m[K’:
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/quardc.cpp:40:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   40 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: '%s'"[m[K, [32m[Kmessage.front_left[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                     [32m[K|[m[K
+      |                                                                     [32m[Kint[m[K
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/quardc.cpp:40:56:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   40 |         RCLCPP_INFO(this->get_logger(), "Publishing: '[01;36m[K%s[m[K'", message.front_left);
+      |                                                       [01;36m[K~^[m[K
+      |                                                        [01;36m[K|[m[K
+      |                                                        [01;36m[Kchar*[m[K
+      |                                                       [32m[K%d[m[K
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/ArmServer.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/ArmServer.cpp:2:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    2 | int main([01;35m[Kint argc[m[K, char **argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/ArmServer.cpp:2:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    2 | int main(int argc, [01;35m[Kchar **argv[m[K)
+      |                    [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/Action.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse MyActionRobot::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<control_msgs::action::FollowJointTrajectory> >)[m[K’:
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/Action.cpp:43:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   43 |     rclcpp_action::CancelResponse MyActionRobot::handle_cancel([01;35m[Kconst std::shared_ptr<GoalHandleFJT> goal_handle[m[K)
+      |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/Action.cpp:[m[K In member function ‘[01m[Kvoid MyActionRobot::execute_move(std::shared_ptr<rclcpp_action::ServerGoalHandle<control_msgs::action::FollowJointTrajectory> >)[m[K’:
+[01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/Action.cpp:62:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   62 |     while (rclcpp::ok() && [01;35m[KtrjIdx < trjPointsSize[m[K) {
+      |                            [01;35m[K~~~~~~~^~~~~~~~~~~~~~~[m[K

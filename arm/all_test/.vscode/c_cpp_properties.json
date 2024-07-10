@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/swen/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages/include/**",
+        "/home/swen/IsaacSim-ros_workspaces/humble_ws/install/custom_message/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/swen/dev_ws/src/all_test/include/**",
+        "/home/swen/dev_ws/src/depth_image_processing/include/**",
+        "/home/swen/dev_ws/src/hello/include/**",
+        "/home/swen/dev_ws/src/hello1/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

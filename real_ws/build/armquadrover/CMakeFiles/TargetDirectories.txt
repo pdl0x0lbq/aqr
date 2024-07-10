@@ -1,0 +1,12 @@
+/root/real_ws/build/armquadrover/CMakeFiles/uninstall.dir
+/root/real_ws/build/armquadrover/CMakeFiles/armquadrover_uninstall.dir
+/root/real_ws/build/armquadrover/CMakeFiles/node_01.dir
+/root/real_ws/build/armquadrover/CMakeFiles/ArmServer.dir
+/root/real_ws/build/armquadrover/CMakeFiles/SerialNode.dir
+/root/real_ws/build/armquadrover/CMakeFiles/test.dir
+/root/real_ws/build/armquadrover/CMakeFiles/edit_cache.dir
+/root/real_ws/build/armquadrover/CMakeFiles/rebuild_cache.dir
+/root/real_ws/build/armquadrover/CMakeFiles/list_install_components.dir
+/root/real_ws/build/armquadrover/CMakeFiles/install.dir
+/root/real_ws/build/armquadrover/CMakeFiles/install/local.dir
+/root/real_ws/build/armquadrover/CMakeFiles/install/strip.dir

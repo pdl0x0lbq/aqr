@@ -1,0 +1,253 @@
+[0.059s] Invoking command in '/root/real_ws/build/armquadrover_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/real_ws/src/armquadrover_gnb/armquadrover_msgs -DCMAKE_INSTALL_PREFIX=/root/real_ws/install/armquadrover_msgs
+[0.363s] -- The C compiler identification is GNU 11.4.0
+[0.663s] -- The CXX compiler identification is GNU 11.4.0
+[0.691s] -- Detecting C compiler ABI info
+[1.011s] -- Detecting C compiler ABI info - done
+[1.065s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.066s] -- Detecting C compile features
+[1.068s] -- Detecting C compile features - done
+[1.083s] -- Detecting CXX compiler ABI info
+[1.441s] -- Detecting CXX compiler ABI info - done
+[1.495s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.497s] -- Detecting CXX compile features
+[1.499s] -- Detecting CXX compile features - done
+[1.509s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.473s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.996s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.518s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.532s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.565s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.779s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.142s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.301s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.810s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.947s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.953s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.112s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.112s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.113s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.114s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[8.244s] -- Found PythonExtra: .so  
+[8.446s] -- Added test 'lint_cmake' to check CMake code style
+[8.451s] -- Added test 'xmllint' to check XML markup files
+[8.472s] -- Configuring done
+[8.609s] -- Generating done
+[8.621s] -- Build files have been written to: /root/real_ws/build/armquadrover_msgs
+[8.656s] Invoked command in '/root/real_ws/build/armquadrover_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/real_ws/src/armquadrover_gnb/armquadrover_msgs -DCMAKE_INSTALL_PREFIX=/root/real_ws/install/armquadrover_msgs
+[8.665s] Invoking command in '/root/real_ws/build/armquadrover_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/real_ws/build/armquadrover_msgs -- -j4 -l4
+[8.813s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.855s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.889s] [  5%] Built target ament_cmake_python_copy_armquadrover_msgs
+[11.054s] running egg_info
+[11.058s] creating armquadrover_msgs.egg-info
+[11.059s] writing armquadrover_msgs.egg-info/PKG-INFO
+[11.062s] writing dependency_links to armquadrover_msgs.egg-info/dependency_links.txt
+[11.064s] writing top-level names to armquadrover_msgs.egg-info/top_level.txt
+[11.065s] writing manifest file 'armquadrover_msgs.egg-info/SOURCES.txt'
+[11.080s] reading manifest file 'armquadrover_msgs.egg-info/SOURCES.txt'
+[11.084s] writing manifest file 'armquadrover_msgs.egg-info/SOURCES.txt'
+[11.348s] [  5%] Built target ament_cmake_python_build_armquadrover_msgs_egg
+[11.504s] [  5%] Built target armquadrover_msgs__cpp
+[11.552s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.580s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.586s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.630s] [ 15%] [32mBuilding C object CMakeFiles/armquadrover_msgs__rosidl_generator_c.dir/rosidl_generator_c/armquadrover_msgs/msg/detail/ddsm115__functions.c.o[0m
+[11.997s] [ 17%] [32mBuilding C object CMakeFiles/armquadrover_msgs__rosidl_generator_c.dir/rosidl_generator_c/armquadrover_msgs/msg/detail/ddsm115_servo__functions.c.o[0m
+[12.312s] [ 20%] [32m[1mLinking C shared library libarmquadrover_msgs__rosidl_generator_c.so[0m
+[12.536s] [ 20%] Built target armquadrover_msgs__rosidl_generator_c
+[12.591s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.000s] [ 25%] [32mBuilding CXX object CMakeFiles/armquadrover_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/armquadrover_msgs/msg/ddsm115__type_support.cpp.o[0m
+[14.115s] [ 28%] [32mBuilding CXX object CMakeFiles/armquadrover_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/armquadrover_msgs/msg/detail/ddsm115__type_support.cpp.o[0m
+[14.386s] [ 30%] [32mBuilding CXX object CMakeFiles/armquadrover_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/armquadrover_msgs/msg/detail/dds_fastrtps/ddsm115__type_support.cpp.o[0m
+[15.858s] [ 33%] [32mBuilding CXX object CMakeFiles/armquadrover_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/armquadrover_msgs/msg/detail/ddsm115__type_support_c.cpp.o[0m
+[16.071s] [ 35%] [32mBuilding CXX object CMakeFiles/armquadrover_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/armquadrover_msgs/msg/ddsm115_servo__type_support.cpp.o[0m
+[17.520s] [ 38%] [32mBuilding CXX object CMakeFiles/armquadrover_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/armquadrover_msgs/msg/detail/ddsm115_servo__type_support.cpp.o[0m
+[18.417s] [ 41%] [32mBuilding CXX object CMakeFiles/armquadrover_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/armquadrover_msgs/msg/detail/dds_fastrtps/ddsm115_servo__type_support.cpp.o[0m
+[18.571s] [ 43%] [32m[1mLinking CXX shared library libarmquadrover_msgs__rosidl_typesupport_cpp.so[0m
+[18.845s] [ 43%] Built target armquadrover_msgs__rosidl_typesupport_cpp
+[18.914s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[19.276s] [ 48%] [32mBuilding CXX object CMakeFiles/armquadrover_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/armquadrover_msgs/msg/detail/ddsm115_servo__type_support_c.cpp.o[0m
+[21.323s] [ 51%] [32m[1mLinking CXX shared library libarmquadrover_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[21.521s] [ 51%] Built target armquadrover_msgs__rosidl_typesupport_introspection_cpp
+[21.568s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[21.955s] [ 56%] [32m[1mLinking CXX shared library libarmquadrover_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.984s] [ 58%] [32mBuilding C object CMakeFiles/armquadrover_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/armquadrover_msgs/msg/detail/ddsm115__type_support.c.o[0m
+[22.206s] [ 61%] [32mBuilding C object CMakeFiles/armquadrover_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/armquadrover_msgs/msg/detail/ddsm115_servo__type_support.c.o[0m
+[22.411s] [ 64%] [32m[1mLinking C shared library libarmquadrover_msgs__rosidl_typesupport_introspection_c.so[0m
+[22.541s] [ 64%] Built target armquadrover_msgs__rosidl_typesupport_fastrtps_cpp
+[22.545s] [ 66%] [32m[1mLinking CXX shared library libarmquadrover_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[22.564s] [ 66%] Built target armquadrover_msgs__rosidl_typesupport_introspection_c
+[23.039s] [ 66%] Built target armquadrover_msgs__rosidl_typesupport_fastrtps_c
+[23.770s] [ 71%] [32mBuilding CXX object CMakeFiles/armquadrover_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/armquadrover_msgs/msg/ddsm115_servo__type_support.cpp.o[0m
+[23.771s] [ 71%] [32mBuilding CXX object CMakeFiles/armquadrover_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/armquadrover_msgs/msg/ddsm115__type_support.cpp.o[0m
+[23.926s] [ 74%] [32m[1mLinking CXX shared library libarmquadrover_msgs__rosidl_typesupport_c.so[0m
+[24.116s] [ 74%] Built target armquadrover_msgs__rosidl_typesupport_c
+[24.197s] [ 74%] Built target armquadrover_msgs
+[24.270s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[27.602s] [ 76%] Built target armquadrover_msgs__py
+[27.667s] [ 82%] [32mBuilding C object CMakeFiles/armquadrover_msgs__rosidl_generator_py.dir/rosidl_generator_py/armquadrover_msgs/msg/_ddsm115_servo_s.c.o[0m
+[27.668s] [ 82%] [32mBuilding C object CMakeFiles/armquadrover_msgs__rosidl_generator_py.dir/rosidl_generator_py/armquadrover_msgs/msg/_ddsm115_s.c.o[0m
+[28.318s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/armquadrover_msgs/libarmquadrover_msgs__rosidl_generator_py.so[0m
+[28.523s] [ 84%] Built target armquadrover_msgs__rosidl_generator_py
+[28.602s] [ 87%] [32mBuilding C object CMakeFiles/armquadrover_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/armquadrover_msgs/_armquadrover_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[28.605s] [ 89%] [32mBuilding C object CMakeFiles/armquadrover_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/armquadrover_msgs/_armquadrover_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[28.606s] [ 92%] [32mBuilding C object CMakeFiles/armquadrover_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/armquadrover_msgs/_armquadrover_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[29.231s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[29.292s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[29.451s] [100%] [32m[1mLinking C shared library rosidl_generator_py/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[29.506s] [100%] Built target armquadrover_msgs__rosidl_typesupport_introspection_c__pyext
+[29.550s] [100%] Built target armquadrover_msgs__rosidl_typesupport_fastrtps_c__pyext
+[29.615s] [100%] Built target armquadrover_msgs__rosidl_typesupport_c__pyext
+[29.656s] Invoked command in '/root/real_ws/build/armquadrover_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/real_ws/build/armquadrover_msgs -- -j4 -l4
+[29.935s] Invoking command in '/root/real_ws/build/armquadrover_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/real_ws/build/armquadrover_msgs
+[29.969s] -- Install configuration: ""
+[29.971s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/ament_index/resource_index/rosidl_interfaces/armquadrover_msgs
+[29.974s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs
+[29.976s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg
+[29.978s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/ddsm115.h
+[29.979s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail
+[29.981s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__functions.c
+[29.982s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__struct.h
+[29.985s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__functions.c
+[29.986s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__functions.h
+[29.988s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__type_support.h
+[29.989s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__struct.h
+[29.991s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__functions.h
+[29.993s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__type_support.h
+[29.994s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/ddsm115_servo.h
+[29.995s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/rosidl_generator_c__visibility_control.h
+[29.997s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/environment/library_path.sh
+[30.004s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/environment/library_path.dsv
+[30.005s] -- Installing: /root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_generator_c.so
+[30.006s] -- Set runtime path of "/root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_generator_c.so" to ""
+[30.008s] -- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs
+[30.010s] -- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg
+[30.011s] -- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail
+[30.012s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__rosidl_typesupport_fastrtps_c.h
+[30.014s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__rosidl_typesupport_fastrtps_c.h
+[30.015s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[30.017s] -- Installing: /root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_fastrtps_c.so
+[30.018s] -- Set runtime path of "/root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[30.019s] -- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs
+[30.020s] -- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg
+[30.022s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[30.024s] -- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail
+[30.026s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__type_support.c
+[30.027s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__rosidl_typesupport_introspection_c.h
+[30.028s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__type_support.c
+[30.030s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__rosidl_typesupport_introspection_c.h
+[30.032s] -- Installing: /root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_introspection_c.so
+[30.034s] -- Set runtime path of "/root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_introspection_c.so" to ""
+[30.035s] -- Installing: /root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_c.so
+[30.038s] -- Set runtime path of "/root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_c.so" to ""
+[30.039s] -- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs
+[30.040s] -- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg
+[30.042s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/ddsm115_servo.hpp
+[30.043s] -- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail
+[30.044s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__traits.hpp
+[30.045s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__builder.hpp
+[30.046s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__builder.hpp
+[30.047s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__traits.hpp
+[30.048s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__struct.hpp
+[30.049s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__struct.hpp
+[30.050s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/ddsm115.hpp
+[30.052s] -- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs
+[30.053s] -- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg
+[30.054s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[30.055s] -- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail
+[30.056s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/dds_fastrtps
+[30.057s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__rosidl_typesupport_fastrtps_cpp.hpp
+[30.059s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__rosidl_typesupport_fastrtps_cpp.hpp
+[30.060s] -- Installing: /root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_fastrtps_cpp.so
+[30.061s] -- Set runtime path of "/root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[30.062s] -- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs
+[30.064s] -- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg
+[30.065s] -- Up-to-date: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail
+[30.066s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__type_support.cpp
+[30.067s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__rosidl_typesupport_introspection_cpp.hpp
+[30.069s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115_servo__type_support.cpp
+[30.070s] -- Installing: /root/real_ws/install/armquadrover_msgs/include/armquadrover_msgs/armquadrover_msgs/msg/detail/ddsm115__rosidl_typesupport_introspection_cpp.hpp
+[30.071s] -- Installing: /root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_introspection_cpp.so
+[30.073s] -- Set runtime path of "/root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[30.075s] -- Installing: /root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_cpp.so
+[30.076s] -- Set runtime path of "/root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_typesupport_cpp.so" to ""
+[30.077s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/environment/pythonpath.sh
+[30.078s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/environment/pythonpath.dsv
+[30.079s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs-0.0.0-py3.10.egg-info
+[30.080s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[30.081s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[30.082s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[30.084s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[30.085s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs
+[30.086s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg
+[30.087s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg/_ddsm115_servo_s.c
+[30.088s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg/_ddsm115_servo.py
+[30.089s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg/_ddsm115_s.c
+[30.090s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg/__init__.py
+[30.091s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg/_ddsm115.py
+[30.092s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/_armquadrover_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[30.093s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/libarmquadrover_msgs__rosidl_generator_py.so
+[30.094s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/_armquadrover_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[30.096s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[30.098s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[30.099s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/_armquadrover_msgs_s.ep.rosidl_typesupport_c.c
+[30.100s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/__init__.py
+[30.101s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[30.335s] Listing '/root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs'...
+[30.335s] Compiling '/root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/__init__.py'...
+[30.336s] Listing '/root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg'...
+[30.337s] Compiling '/root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg/__init__.py'...
+[30.337s] Compiling '/root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg/_ddsm115.py'...
+[30.338s] Compiling '/root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/msg/_ddsm115_servo.py'...
+[30.379s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[30.380s] -- Set runtime path of "/root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[30.381s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[30.382s] -- Set runtime path of "/root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[30.383s] -- Installing: /root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[30.384s] -- Set runtime path of "/root/real_ws/install/armquadrover_msgs/local/lib/python3.10/dist-packages/armquadrover_msgs/armquadrover_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[30.385s] -- Installing: /root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_generator_py.so
+[30.386s] -- Set runtime path of "/root/real_ws/install/armquadrover_msgs/lib/libarmquadrover_msgs__rosidl_generator_py.so" to ""
+[30.387s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/msg/DDSM115.idl
+[30.388s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/msg/DDSM115Servo.idl
+[30.389s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/msg/DDSM115.msg
+[30.390s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/msg/DDSM115Servo.msg
+[30.391s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/ament_index/resource_index/package_run_dependencies/armquadrover_msgs
+[30.392s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/ament_index/resource_index/parent_prefix_path/armquadrover_msgs
+[30.393s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/environment/ament_prefix_path.sh
+[30.393s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/environment/ament_prefix_path.dsv
+[30.394s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/environment/path.sh
+[30.395s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/environment/path.dsv
+[30.396s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/local_setup.bash
+[30.397s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/local_setup.sh
+[30.398s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/local_setup.zsh
+[30.399s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/local_setup.dsv
+[30.400s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/package.dsv
+[30.401s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/ament_index/resource_index/packages/armquadrover_msgs
+[30.402s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_generator_cExport.cmake
+[30.403s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_generator_cExport-noconfig.cmake
+[30.404s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[30.405s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[30.406s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgs__rosidl_typesupport_introspection_cExport.cmake
+[30.407s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[30.411s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgs__rosidl_typesupport_cExport.cmake
+[30.412s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[30.414s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_generator_cppExport.cmake
+[30.415s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[30.417s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[30.419s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[30.420s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[30.421s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgs__rosidl_typesupport_cppExport.cmake
+[30.422s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[30.422s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_generator_pyExport.cmake
+[30.423s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/export_armquadrover_msgs__rosidl_generator_pyExport-noconfig.cmake
+[30.424s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/rosidl_cmake-extras.cmake
+[30.424s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.425s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[30.426s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[30.426s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[30.427s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.427s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[30.428s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgsConfig.cmake
+[30.429s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/cmake/armquadrover_msgsConfig-version.cmake
+[30.430s] -- Installing: /root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/package.xml
+[30.434s] Invoked command in '/root/real_ws/build/armquadrover_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/real_ws/build/armquadrover_msgs

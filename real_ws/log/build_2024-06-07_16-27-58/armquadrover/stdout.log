@@ -1,0 +1,3 @@
+[ 25%] Built target node_01
+[35m[1mConsolidate compiler generated dependencies of target SerialNode[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/SerialNode.dir/src/SerialNode.cpp.o[0m

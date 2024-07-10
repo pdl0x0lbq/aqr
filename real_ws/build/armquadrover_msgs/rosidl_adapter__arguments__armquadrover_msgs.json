@@ -1,0 +1,7 @@
+{
+  "package_name": "armquadrover_msgs",
+  "non_idl_tuples": [
+    "/root/real_ws/src/armquadrover_gnb/armquadrover_msgs:msg/DDSM115.msg",
+    "/root/real_ws/src/armquadrover_gnb/armquadrover_msgs:msg/DDSM115Servo.msg"
+  ]
+}

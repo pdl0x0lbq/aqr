@@ -1,0 +1,108 @@
+[0.186s] Invoking command in '/root/real_ws/build/armquadrover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble /usr/local/bin/cmake --build /root/real_ws/build/armquadrover -- -j4 -l4
+[1.785s] [35m[1mConsolidate compiler generated dependencies of target node_01[0m
+[2.099s] [ 25%] Built target node_01
+[2.238s] [35m[1mConsolidate compiler generated dependencies of target SerialNode[0m
+[2.797s] [ 37%] [32mBuilding CXX object CMakeFiles/SerialNode.dir/src/SerialNode.cpp.o[0m
+[37.098s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:92:51:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+[37.099s]    92 |     void leftSuccessCallback(const std_msgs::msg::[01;31m[KBool[m[K::SharedPtr msg) {
+[37.100s]       |                                                   [01;31m[K^~~~[m[K
+[37.106s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:92:67:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[37.107s]    92 |     void leftSuccessCallback(const std_msgs::msg::Bool::SharedPtr [01;31m[Kmsg[m[K) {
+[37.108s]       |                                                                   [01;31m[K^~~[m[K
+[37.108s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:92:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[37.120s]    92 |     void leftSuccessCallback[34m[K([m[Kconst std_msgs::msg::Bool::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+[37.121s]       |                             [34m[K~[m[K                                    [01;31m[K^[m[K[32m[K~~~[m[K
+[37.122s]       |                                                                  [32m[K)[m[K
+[37.122s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:92:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[37.123s]    92 |     void leftSuccessCallback(const std_msgs::msg::Bool::[01;31m[KSharedPtr[m[K msg) {
+[37.123s]       |                                                         [01;31m[K^~~~~~~~~[m[K
+[37.124s]       |                                                                  [32m[K;[m[K
+[37.137s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:92:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+[37.138s]    92 |     void leftSuccessCallback(const std_msgs::msg::Bool::SharedPtr [01;31m[Kmsg[m[K) {
+[37.138s]       |                                                                   [01;31m[K^~~[m[K
+[37.139s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:95:52:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+[37.140s]    95 |     void rightSuccessCallback(const std_msgs::msg::[01;31m[KBool[m[K::SharedPtr msg) {
+[37.140s]       |                                                    [01;31m[K^~~~[m[K
+[37.147s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:95:68:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[37.157s]    95 |     void rightSuccessCallback(const std_msgs::msg::Bool::SharedPtr [01;31m[Kmsg[m[K) {
+[37.158s]       |                                                                    [01;31m[K^~~[m[K
+[37.158s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:95:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[37.159s]    95 |     void rightSuccessCallback[34m[K([m[Kconst std_msgs::msg::Bool::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+[37.160s]       |                              [34m[K~[m[K                                    [01;31m[K^[m[K[32m[K~~~[m[K
+[37.160s]       |                                                                   [32m[K)[m[K
+[37.170s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:95:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[37.170s]    95 |     void rightSuccessCallback(const std_msgs::msg::Bool::[01;31m[KSharedPtr[m[K msg) {
+[37.181s]       |                                                          [01;31m[K^~~~~~~~~[m[K
+[37.182s]       |                                                                   [32m[K;[m[K
+[37.183s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:95:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+[37.184s]    95 |     void rightSuccessCallback(const std_msgs::msg::Bool::SharedPtr [01;31m[Kmsg[m[K) {
+[37.193s]       |                                                                    [01;31m[K^~~[m[K
+[38.021s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:[m[K In constructor ‘[01m[KSerialNode::SerialNode()[m[K’:
+[38.029s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:39:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess_left_subscription_[m[K’ was not declared in this scope
+[38.030s]    39 |         [01;31m[Ksuccess_left_subscription_[m[K = this->create_subscription<std_msgs::msg::Bool>("/moveit_success_left", 10, std::bind(&SerialNode::leftSuccessCallback, this, std::placeholders::_1));
+[38.031s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[38.032s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:39:79:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[38.052s]    39 |         success_left_subscription_ = this->create_subscription<std_msgs::msg::[01;31m[KBool[m[K>("/moveit_success_left", 10, std::bind(&SerialNode::leftSuccessCallback, this, std::placeholders::_1));
+[38.057s]       |                                                                               [01;31m[K^~~~[m[K
+[38.063s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:39:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSerialNode::create_subscription<<expression error> >(const char [21], int, std::_Bind_helper<false, void (SerialNode::*)(...), SerialNode*, const std::_Placeholder<1>&>::type)[m[K’
+[38.070s]    39 |         success_left_subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Bool>("/moveit_success_left", 10, std::bind(&SerialNode::leftSuccessCallback, this, std::placeholders::_1))[m[K;
+[38.076s]       |                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[38.086s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[38.093s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[38.099s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[38.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[38.112s]                  from [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:1[m[K:
+[38.119s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[38.127s]    92 | [01;36m[KNode[m[K::create_subscription(
+[38.133s]       | [01;36m[K^~~~[m[K
+[38.140s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[38.148s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:39:84:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[38.155s]    39 |         success_left_subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Bool>("/moveit_success_left", 10, std::bind(&SerialNode::leftSuccessCallback, this, std::placeholders::_1))[m[K;
+[38.162s]       |                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[38.338s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:41:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess_right_subscription_[m[K’ was not declared in this scope
+[38.343s]    41 |         [01;31m[Ksuccess_right_subscription_[m[K = this->create_subscription<std_msgs::msg::Bool>("/moveit_success_right", 10, std::bind(&SerialNode::rightSuccessCallback, this, std::placeholders::_1));
+[38.347s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[38.355s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:41:80:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[38.359s]    41 |         success_right_subscription_ = this->create_subscription<std_msgs::msg::[01;31m[KBool[m[K>("/moveit_success_right", 10, std::bind(&SerialNode::rightSuccessCallback, this, std::placeholders::_1));
+[38.364s]       |                                                                                [01;31m[K^~~~[m[K
+[38.369s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:41:85:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSerialNode::create_subscription<<expression error> >(const char [22], int, std::_Bind_helper<false, void (SerialNode::*)(...), SerialNode*, const std::_Placeholder<1>&>::type)[m[K’
+[38.374s]    41 |         success_right_subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Bool>("/moveit_success_right", 10, std::bind(&SerialNode::rightSuccessCallback, this, std::placeholders::_1))[m[K;
+[38.383s]       |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[38.397s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[38.401s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[38.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[38.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[38.411s]                  from [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:1[m[K:
+[38.412s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[38.423s]    92 | [01;36m[KNode[m[K::create_subscription(
+[38.424s]       | [01;36m[K^~~~[m[K
+[38.425s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[38.425s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:41:85:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[38.426s]    41 |         success_right_subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Bool>("/moveit_success_right", 10, std::bind(&SerialNode::rightSuccessCallback, this, std::placeholders::_1))[m[K;
+[38.426s]       |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[38.672s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:[m[K In member function ‘[01m[Kvoid SerialNode::joint_states_array_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[38.674s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:133:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kture[m[K’ was not declared in this scope
+[38.675s]   133 |                 if (left_success_ == [01;31m[Kture[m[K) {
+[38.675s]       |                                      [01;31m[K^~~~[m[K
+[38.724s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:182:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kright[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::right[m[K’?
+[38.725s]   182 |                 if ([01;31m[Kright[m[K == ture) {
+[38.727s]       |                     [01;31m[K^~~~~[m[K
+[38.727s]       |                     [32m[Kstd::right[m[K
+[38.730s] In file included from [01m[K/usr/include/c++/11/ios:42[m[K,
+[38.730s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[38.731s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[38.732s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[38.733s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[38.734s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[38.736s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[38.737s]                  from [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:1[m[K:
+[38.738s] [01m[K/usr/include/c++/11/bits/ios_base.h:1037:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::right[m[K’ declared here
+[38.741s]  1037 |   [01;36m[Kright[m[K(ios_base& __base)
+[38.742s]       |   [01;36m[K^~~~~[m[K
+[38.795s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:182:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kture[m[K’ was not declared in this scope
+[38.796s]   182 |                 if (right == [01;31m[Kture[m[K) {
+[38.797s]       |                              [01;31m[K^~~~[m[K
+[64.925s] gmake[2]: *** [CMakeFiles/SerialNode.dir/build.make:76: CMakeFiles/SerialNode.dir/src/SerialNode.cpp.o] Error 1
+[64.927s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/SerialNode.dir/all] Error 2
+[64.928s] gmake: *** [Makefile:146: all] Error 2
+[65.122s] Invoked command in '/root/real_ws/build/armquadrover' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble /usr/local/bin/cmake --build /root/real_ws/build/armquadrover -- -j4 -l4

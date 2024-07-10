@@ -1,0 +1,232 @@
+[1.791s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[1.792s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fac2308b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fac433eb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fac433eb0>>, mixin_verb=('build',))[0m
+[4.690s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[4.691s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[4.692s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[4.692s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[4.694s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[4.695s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[4.695s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/root/real_ws'
+[4.696s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.698s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[4.699s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[4.699s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[4.700s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[4.701s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[4.701s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[4.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[4.702s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[4.866s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[4.867s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[4.867s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[4.868s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[4.869s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[4.870s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.871s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[4.872s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[4.874s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.877s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[4.878s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[4.879s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.887s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[4.888s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[4.889s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.890s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[4.891s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[4.892s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[4.892s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[4.893s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[4.894s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[4.895s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[4.896s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[4.897s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[4.897s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[4.898s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[4.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[4.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[4.900s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb) by extensions ['ignore', 'ignore_ament_install']
+[4.902s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb) by extension 'ignore'
+[4.903s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb) by extension 'ignore_ament_install'
+[4.904s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb) by extensions ['colcon_pkg']
+[4.905s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb) by extension 'colcon_pkg'
+[4.906s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb) by extensions ['colcon_meta']
+[4.906s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb) by extension 'colcon_meta'
+[4.908s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb) by extensions ['ros']
+[4.909s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb) by extension 'ros'
+[4.910s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb) by extensions ['cmake', 'python']
+[4.911s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb) by extension 'cmake'
+[4.912s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb) by extension 'python'
+[4.913s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb) by extensions ['python_setup_py']
+[4.914s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb) by extension 'python_setup_py'
+[4.916s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover) by extensions ['ignore', 'ignore_ament_install']
+[4.917s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover) by extension 'ignore'
+[4.918s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover) by extension 'ignore_ament_install'
+[4.919s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover) by extensions ['colcon_pkg']
+[4.920s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover) by extension 'colcon_pkg'
+[4.921s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover) by extensions ['colcon_meta']
+[4.922s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover) by extension 'colcon_meta'
+[4.923s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover) by extensions ['ros']
+[4.924s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover) by extension 'ros'
+[4.966s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/armquadrover_gnb/armquadrover' with type 'ros.ament_cmake' and name 'armquadrover'[0m
+[4.971s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.973s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover_msgs) by extension 'ignore'
+[4.975s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover_msgs) by extension 'ignore_ament_install'
+[4.976s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover_msgs) by extensions ['colcon_pkg']
+[4.978s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover_msgs) by extension 'colcon_pkg'
+[4.979s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover_msgs) by extensions ['colcon_meta']
+[4.979s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover_msgs) by extension 'colcon_meta'
+[4.980s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover_msgs) by extensions ['ros']
+[4.982s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/armquadrover_gnb/armquadrover_msgs) by extension 'ros'
+[4.989s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/armquadrover_gnb/armquadrover_msgs' with type 'ros.ament_cmake' and name 'armquadrover_msgs'[0m
+[4.990s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[4.991s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[4.991s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[4.991s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[4.992s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[5.275s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[5.276s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[5.310s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 3 installed packages in /root/dev_ws/install[0m
+[5.316s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 3 installed packages in /root/urdf_ws/install[0m
+[5.324s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /root/real_ws/install[0m
+[5.330s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /root/catkin_ws/install[0m
+[5.349s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 371 installed packages in /opt/ros/humble[0m
+[5.368s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[6.323s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover' build argument 'cmake_args' from command line to 'None'
+[6.324s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover' build argument 'cmake_target' from command line to 'None'
+[6.325s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.327s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover' build argument 'cmake_clean_cache' from command line to 'False'
+[6.328s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover' build argument 'cmake_clean_first' from command line to 'False'
+[6.329s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover' build argument 'cmake_force_configure' from command line to 'False'
+[6.330s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover' build argument 'ament_cmake_args' from command line to 'None'
+[6.331s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover' build argument 'catkin_cmake_args' from command line to 'None'
+[6.332s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.333s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'armquadrover' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/real_ws/build/armquadrover', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/real_ws/install/armquadrover', 'merge_install': False, 'path': '/root/real_ws/src/armquadrover_gnb/armquadrover', 'symlink_install': False, 'test_result_base': None}[0m
+[6.338s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover_msgs' build argument 'cmake_args' from command line to 'None'
+[6.339s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover_msgs' build argument 'cmake_target' from command line to 'None'
+[6.340s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.341s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[6.342s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[6.343s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[6.345s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[6.346s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[6.347s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'armquadrover_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.348s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'armquadrover_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/real_ws/build/armquadrover_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/real_ws/install/armquadrover_msgs', 'merge_install': False, 'path': '/root/real_ws/src/armquadrover_gnb/armquadrover_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[6.350s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[6.360s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[6.362s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/root/real_ws/src/armquadrover_gnb/armquadrover' with build type 'ament_cmake'
+[6.364s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/root/real_ws/src/armquadrover_gnb/armquadrover'
+[6.395s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.398s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.399s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[6.453s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/root/real_ws/src/armquadrover_gnb/armquadrover_msgs' with build type 'ament_cmake'
+[6.458s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/root/real_ws/src/armquadrover_gnb/armquadrover_msgs'
+[6.465s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.467s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[6.550s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/root/real_ws/build/armquadrover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble /usr/local/bin/cmake --build /root/real_ws/build/armquadrover -- -j4 -l4[0m
+[6.629s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/root/real_ws/build/armquadrover_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble /usr/local/bin/cmake --build /root/real_ws/build/armquadrover_msgs -- -j4 -l4[0m
+[15.241s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/root/real_ws/build/armquadrover_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble /usr/local/bin/cmake --build /root/real_ws/build/armquadrover_msgs -- -j4 -l4[0m
+[17.923s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/root/real_ws/build/armquadrover_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble /usr/local/bin/cmake --install /root/real_ws/build/armquadrover_msgs[0m
+[20.208s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(armquadrover_msgs)
+[20.217s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/root/real_ws/build/armquadrover_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble /usr/local/bin/cmake --install /root/real_ws/build/armquadrover_msgs[0m
+[20.270s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover_msgs' for CMake module files
+[20.278s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover_msgs' for CMake config files
+[20.285s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('armquadrover_msgs', 'cmake_prefix_path')
+[20.290s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/hook/cmake_prefix_path.ps1'
+[20.302s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/hook/cmake_prefix_path.dsv'
+[20.314s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/hook/cmake_prefix_path.sh'
+[20.334s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover_msgs/lib'
+[20.339s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('armquadrover_msgs', 'ld_library_path_lib')
+[20.342s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/hook/ld_library_path_lib.ps1'
+[20.353s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/hook/ld_library_path_lib.dsv'
+[20.363s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/hook/ld_library_path_lib.sh'
+[20.376s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover_msgs/bin'
+[20.380s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover_msgs/lib/pkgconfig/armquadrover_msgs.pc'
+[20.383s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover_msgs/lib/python3.10/site-packages'
+[20.388s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover_msgs/bin'
+[20.395s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/package.ps1'
+[20.407s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/package.dsv'
+[20.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/package.sh'
+[20.441s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/package.bash'
+[20.458s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/package.zsh'
+[20.474s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/root/real_ws/install/armquadrover_msgs/share/colcon-core/packages/armquadrover_msgs)
+[22.594s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(armquadrover_msgs)
+[22.601s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover_msgs' for CMake module files
+[22.609s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover_msgs' for CMake config files
+[22.615s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('armquadrover_msgs', 'cmake_prefix_path')
+[22.622s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/hook/cmake_prefix_path.ps1'
+[22.634s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/hook/cmake_prefix_path.dsv'
+[22.659s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/hook/cmake_prefix_path.sh'
+[22.678s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover_msgs/lib'
+[22.681s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('armquadrover_msgs', 'ld_library_path_lib')
+[22.686s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/hook/ld_library_path_lib.ps1'
+[22.701s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/hook/ld_library_path_lib.dsv'
+[22.717s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/hook/ld_library_path_lib.sh'
+[22.734s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover_msgs/bin'
+[22.737s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover_msgs/lib/pkgconfig/armquadrover_msgs.pc'
+[22.746s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover_msgs/lib/python3.10/site-packages'
+[22.753s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover_msgs/bin'
+[22.760s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/package.ps1'
+[22.780s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/package.dsv'
+[22.793s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/package.sh'
+[22.804s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/package.bash'
+[22.815s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/real_ws/install/armquadrover_msgs/share/armquadrover_msgs/package.zsh'
+[22.830s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/root/real_ws/install/armquadrover_msgs/share/colcon-core/packages/armquadrover_msgs)
+[138.110s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/root/real_ws/build/armquadrover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble /usr/local/bin/cmake --build /root/real_ws/build/armquadrover -- -j4 -l4[0m
+[139.653s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/root/real_ws/build/armquadrover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble /usr/local/bin/cmake --install /root/real_ws/build/armquadrover[0m
+[140.687s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(armquadrover)
+[140.703s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover' for CMake module files
+[140.699s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/root/real_ws/build/armquadrover' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble /usr/local/bin/cmake --install /root/real_ws/build/armquadrover[0m
+[140.715s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover' for CMake config files
+[140.724s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('armquadrover', 'cmake_prefix_path')
+[140.726s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/real_ws/install/armquadrover/share/armquadrover/hook/cmake_prefix_path.ps1'
+[140.748s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/real_ws/install/armquadrover/share/armquadrover/hook/cmake_prefix_path.dsv'
+[140.773s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/real_ws/install/armquadrover/share/armquadrover/hook/cmake_prefix_path.sh'
+[140.781s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover/lib'
+[140.785s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover/bin'
+[140.786s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover/lib/pkgconfig/armquadrover.pc'
+[140.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover/lib/python3.10/site-packages'
+[140.795s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover/bin'
+[140.802s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/real_ws/install/armquadrover/share/armquadrover/package.ps1'
+[140.809s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/root/real_ws/install/armquadrover/share/armquadrover/package.dsv'
+[140.814s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/real_ws/install/armquadrover/share/armquadrover/package.sh'
+[140.820s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/real_ws/install/armquadrover/share/armquadrover/package.bash'
+[140.829s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/real_ws/install/armquadrover/share/armquadrover/package.zsh'
+[140.837s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/root/real_ws/install/armquadrover/share/colcon-core/packages/armquadrover)
+[141.819s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(armquadrover)
+[141.825s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover' for CMake module files
+[141.833s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover' for CMake config files
+[141.843s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('armquadrover', 'cmake_prefix_path')
+[141.847s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/real_ws/install/armquadrover/share/armquadrover/hook/cmake_prefix_path.ps1'
+[141.859s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/real_ws/install/armquadrover/share/armquadrover/hook/cmake_prefix_path.dsv'
+[141.869s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/real_ws/install/armquadrover/share/armquadrover/hook/cmake_prefix_path.sh'
+[141.881s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover/lib'
+[141.884s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover/bin'
+[141.889s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover/lib/pkgconfig/armquadrover.pc'
+[141.893s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover/lib/python3.10/site-packages'
+[141.898s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/real_ws/install/armquadrover/bin'
+[141.903s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/real_ws/install/armquadrover/share/armquadrover/package.ps1'
+[141.914s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/root/real_ws/install/armquadrover/share/armquadrover/package.dsv'
+[141.924s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/real_ws/install/armquadrover/share/armquadrover/package.sh'
+[141.935s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/real_ws/install/armquadrover/share/armquadrover/package.bash'
+[141.952s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/real_ws/install/armquadrover/share/armquadrover/package.zsh'
+[141.967s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/root/real_ws/install/armquadrover/share/colcon-core/packages/armquadrover)
+[141.981s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[141.984s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[141.988s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[141.990s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[142.098s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[142.100s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[142.101s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[142.103s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[167.137s] [34mcolcon.colcon_notification.desktop_notification.notify2[0m [1;30mDEBUG[0m [32mFailed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.[0m
+[167.137s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[167.140s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/root/real_ws/install/local_setup.ps1'
+[167.152s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/root/real_ws/install/_local_setup_util_ps1.py'
+[167.170s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/root/real_ws/install/setup.ps1'
+[167.207s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/root/real_ws/install/local_setup.sh'
+[167.214s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/root/real_ws/install/_local_setup_util_sh.py'
+[167.219s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/root/real_ws/install/setup.sh'
+[167.234s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/root/real_ws/install/local_setup.bash'
+[167.242s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/root/real_ws/install/setup.bash'
+[167.255s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/root/real_ws/install/local_setup.zsh'
+[167.263s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/root/real_ws/install/setup.zsh'

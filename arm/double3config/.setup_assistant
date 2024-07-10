@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: doublearm6_description
+    relative_path: urdf/doublearm6.urdf
+  srdf:
+    relative_path: config/doublearm6.srdf
+  package_settings:
+    author_name: swen
+    author_email: swen@qq.com
+    generated_timestamp: 1718367559
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

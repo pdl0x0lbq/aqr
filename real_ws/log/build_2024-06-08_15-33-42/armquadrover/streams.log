@@ -1,0 +1,20 @@
+[0.105s] Invoking command in '/root/real_ws/build/armquadrover': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble /usr/local/bin/cmake --build /root/real_ws/build/armquadrover -- -j4 -l4
+[1.136s] [35m[1mConsolidate compiler generated dependencies of target SerialNode[0m
+[1.140s] [ 25%] Built target node_01
+[1.146s] [35m[1mConsolidate compiler generated dependencies of target ArmServer[0m
+[1.468s] [ 62%] Built target ArmServer
+[1.499s] [ 75%] [32mBuilding CXX object CMakeFiles/SerialNode.dir/src/SerialNode.cpp.o[0m
+[29.707s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:[m[K In member function ‘[01m[Kvoid SerialNode::leftSuccessCallback(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[29.708s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:95:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_value[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_value[m[K’?
+[29.709s]    95 |         [01;31m[Knew_value[m[K = 2.6;
+[29.710s]       |         [01;31m[K^~~~~~~~~[m[K
+[29.711s]       |         [32m[Ksi_value[m[K
+[29.767s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:[m[K In member function ‘[01m[Kvoid SerialNode::rightSuccessCallback(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[29.768s] [01m[K/root/real_ws/src/armquadrover_gnb/armquadrover/src/SerialNode.cpp:102:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_value[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_value[m[K’?
+[29.769s]   102 |         [01;31m[Knew_value[m[K = 2.6;
+[29.770s]       |         [01;31m[K^~~~~~~~~[m[K
+[29.771s]       |         [32m[Ksi_value[m[K
+[51.775s] gmake[2]: *** [CMakeFiles/SerialNode.dir/build.make:76: CMakeFiles/SerialNode.dir/src/SerialNode.cpp.o] Error 1
+[51.776s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/SerialNode.dir/all] Error 2
+[51.777s] gmake: *** [Makefile:146: all] Error 2
+[51.909s] Invoked command in '/root/real_ws/build/armquadrover' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/urdf_ws/install/doublearm6_description:/opt/ros/humble /usr/local/bin/cmake --build /root/real_ws/build/armquadrover -- -j4 -l4
